@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        "jakarta ": "'Plus Jakarta Sans',sans-serif",
-        courier: "'Courier Prime',monospace",
+        "jakarta": "'Plus Jakarta Sans',sans-serif",
+        "courier": "'Courier Prime',monospace",
       },
       colors: {
         black: "#111111",
@@ -34,6 +34,7 @@ const config: Config = {
       },
       backgroundImage: {
         mix_red: "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)",
+        light_red:"linear-gradient(96.09deg, rgba(227, 25, 48, 0.1) 0%, rgba(243, 87, 110, 0.1) 100%)"
       },
     },
   },
