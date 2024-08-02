@@ -11,7 +11,7 @@ export const EASY_TABS_DATA = [
     },
     {
         numb: 3,
-        heading: "Discove rrisk and trends",
+        heading: "Discover risk and trends",
         para: "Push back to your existing dashboards or use our own UI for stunningvisualisation, data exploration and risk analysis",
     },
 ]
