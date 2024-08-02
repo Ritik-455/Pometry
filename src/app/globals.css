@@ -42,3 +42,8 @@
     @apply w-[100%] px-[12px];
   }
 }
+.gradient_text:hover {
+  background: linear-gradient(96.09deg, #e31930 0%, #f3576e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
