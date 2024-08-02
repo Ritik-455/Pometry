@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         "jakarta ": "'Plus Jakarta Sans',sans-serif",
-        "courier": "'Courier Prime',monospace"
+        courier: "'Courier Prime',monospace",
       },
       colors: {
         black: "#111111",
@@ -18,7 +18,10 @@ const config: Config = {
         light_black: "#FFFFFF1A",
         green: "#00c136",
         yellow: "#EDF127",
-        light_red: "#9D20351A"
+        light_red: "#9D20351A",
+      },
+      boxShadow: {
+        "3xl": "0px 8px 41px 0px #00000014",
       },
       container: {
         padding: {
@@ -27,7 +30,10 @@ const config: Config = {
           xl: "20px",
         },
         center: true,
-      }
+      },
+      backgroundImage: {
+        mix_red: "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)",
+      },
     },
   },
   plugins: [],
