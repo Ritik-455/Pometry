@@ -22,6 +22,7 @@ const config: Config = {
       },
       boxShadow: {
         "3xl": "0px 8px 41px 0px #00000014",
+        "4xl": "0px 0px 0px 2px #9D20351A, 0px 0px 15px #ffffff",
       },
       container: {
         padding: {
