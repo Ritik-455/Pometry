@@ -3,13 +3,14 @@ import React from "react";
 import { SOCIAL_ICON } from "../common/Helper";
 import PrimaryHeading from "../common/PrimaryHeading";
 import Paragraph from "../common/Paragraph";
+import Image from "next/image";
 
 const Community = () => {
   return (
-    <div className="py-[152px] 2xl:max-w-[1920px] mx-auto">
+    <div className="xl:py-[152px] md:py-20 py-16 2xl:max-w-[1920px] mx-auto">
       <div className="container xl:max-w-[1180px]">
-        <div className="w-full py-[88px] rounded-[32px] shadow-3xl bg-mix_red">
-          <div className="max-w-[827px] mx-auto text-center">
+        <div className="w-full py-[88px] px-6 rounded-[32px] shadow-3xl bg-mix_red relative z-30 overflow-hidden">
+          <div className="max-w-[790px] mx-auto text-center">
             <PrimaryHeading
               textName="Join Our Community"
               className="!text-white mb-3"
@@ -31,6 +32,15 @@ const Community = () => {
               ))}
             </div>
           </div>
+          {/* layer */}
+          <Image
+            src="/assets/images/home/webp/community-layer.webp"
+            alt="layer"
+            width={1166}
+            height={522}
+            rel="preload"
+            className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0 opacity-30"
+          />
         </div>
       </div>
     </div>

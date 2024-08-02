@@ -1,8 +1,7 @@
-import Header from "@/components/common/Header";
+import CommonBlog from "@/components/common/CommonBlog";
 import Community from "@/components/home/Community";
 import Easy from "@/components/home/Easy";
 import Hero from "@/components/home/Hero";
-import HomeBlog from "@/components/home/HomeBlog";
 import SayHello from "@/components/home/SayHello";
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
       <Easy />
       <SayHello />
       <Community />
-      <HomeBlog/>
+      <CommonBlog />
     </>
   );
 }
