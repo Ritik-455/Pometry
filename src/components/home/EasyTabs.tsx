@@ -5,17 +5,17 @@ import PrimaryHeading from "../common/PrimaryHeading";
 import Paragraph from "../common/Paragraph";
 import { CloudCoin, Coin, Document, Star } from "../common/Icon";
 import Image from "next/image";
-interface Easy_Tab {
+interface EasyTab {
   numb: number;
   heading: string;
   para: string
 }
 
-const Easy = () => {
+const EasyTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   // Function to handle tab click
-  const handleTabClick = (index: number) => {
+  const HANDLE_TAB_CLICK = (index: number) => {
     setActiveTab(index);
   };
   return (
@@ -27,8 +27,8 @@ const Easy = () => {
         </div>
         <div className="hidden md:block">
           <div className="row mt-14">
-            {EASY_TABS_DATA.map((data: Easy_Tab, index) => (
-              <div className={`${index === activeTab ? ' md:border-dark_red' : ' md:border-[#2E2E2E]'} col-4 md:border-l-[2px] min-h-[180px] lg:min-h-[215px] cursor-pointer`} key={index} onClick={() => handleTabClick(index)}>
+            {EASY_TABS_DATA.map((data: EasyTab, index) => (
+              <div className={`${index === activeTab ? 'md:border-dark_red' : 'md:border-[#2E2E2E]'} col-4 md:border-l-[2px] min-h-[180px] lg:min-h-[215px] cursor-pointer`} key={index} onClick={() => HANDLE_TAB_CLICK(index)}>
                 <div className="lg:pl-6 pt-6">
                   <div className={`${index === activeTab ? 'bg-mix_red' : 'bg-light_black'} size-11 rounded-lg flex justify-center items-center`}>
                     <p className=" font-jakarta font-semibold text-2xl text-white">{data.numb}</p>
@@ -41,8 +41,8 @@ const Easy = () => {
           </div>
         </div>
         <div className="flex md:hidden overflow-x-scroll gap-5 mt-6">
-          {EASY_TABS_DATA.map((data: Easy_Tab, index) => (
-            <div className={`${index === activeTab ? ' md:border-dark_red' : ' md:border-[#2E2E2E]'} md:border-l-[2px] min-h-[180px] cursor-pointer`} key={index} onClick={() => handleTabClick(index)}>
+          {EASY_TABS_DATA.map((data: EasyTab, index) => (
+            <div className={`${index === activeTab ? 'md:border-dark_red' : 'md:border-[#2E2E2E]'} md:border-l-[2px] min-h-[180px] cursor-pointer`} key={index} onClick={() => HANDLE_TAB_CLICK(index)}>
               <div className="lg:pl-6 pt-6">
                 <div className={`${index === activeTab ? 'bg-mix_red' : 'bg-light_black'} size-11 rounded-lg flex justify-center items-center`}>
                   <p className=" font-jakarta font-semibold text-2xl text-white">{data.numb}</p>
@@ -56,8 +56,8 @@ const Easy = () => {
         </div>
         {/* tab-1 content */}
         {activeTab === 0 && (
-          <div className="">
-            <div className="flex justify-center mt-10">
+          <div className="mt-10">
+            <div className="flex justify-center ">
               <div className="max-w-[640px] flex justify-between w-full">
                 <div className="size-16 sm:size-[82px] bg-light_red rounded-[20px] flex justify-center items-center">
                   <Document />
@@ -75,7 +75,7 @@ const Easy = () => {
             </div>
             <div className="flex flex-col items-center">
               <Image
-                src="/assets/images/home/webp/Run-queries.webp"
+                src="/assets/images/home/webp/run-queries.webp"
                 height={195}
                 width={640}
                 alt="Run"
@@ -95,8 +95,8 @@ const Easy = () => {
         )}
         {/* tab-2 content */}
         {activeTab === 1 && (
-          <div className="">
-            <div className="flex gap-4 mt-10 flex-wrap lg:flex-nowrap justify-center">
+          <div className="mt-10">
+            <div className="flex gap-4 flex-wrap lg:flex-nowrap justify-center">
               <div className="w-[540px] lg:w-[558px]">
                 <div className="max-w-[558px] w-full bg-light_black p-4 border border-[#FFFFFF1F] rounded-[15px] lg:h-full">
                   <p className="font-courier font-normal text-white text-sm">for monthly_view in graph<span className="text-green">.rolling</span>( &#34;<span className="text-yellow">1 month</span> &#34;) :</p>
@@ -158,4 +158,4 @@ const Easy = () => {
   )
 };
 
-export default Easy;
+export default EasyTabs;

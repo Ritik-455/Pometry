@@ -14,8 +14,8 @@ const Header = () => {
   const HANDLE_NAVBAR = () => {
     setNav(!nav);
     let body = document.body;
-    nav && body.classList.add("overflow-hidden");
-    !nav && body.classList.remove("overflow-hidden");
+    nav && body.classList.add("max-lg:overflow-hidden");
+    !nav && body.classList.remove("max-lg:overflow-hidden");
   };
 
   return (
@@ -61,7 +61,7 @@ const Header = () => {
                 key={index}
                 href={obj.url}
                 onClick={HANDLE_NAVBAR}
-                className="font-jakarta text-black opacity-90 hover:text-gradient_text transition duration-300 ease-linear"
+                className="font-jakarta text-black opacity-90 max-lg:text-2xl hover:text-gradient_text transition duration-300 ease-linear"
               >
                 {obj.navlink}
               </Link>

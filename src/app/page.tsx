@@ -1,6 +1,5 @@
-import Header from "@/components/common/Header";
 import Community from "@/components/home/Community";
-import Easy from "@/components/home/Easy";
+import EasyTabs from "@/components/home/EasyTabs";
 import Hero from "@/components/home/Hero";
 import HomeBlog from "@/components/home/HomeBlog";
 import SayHello from "@/components/home/SayHello";
@@ -9,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Easy />
+      <EasyTabs />
       <SayHello />
       <Community />
       <HomeBlog/>

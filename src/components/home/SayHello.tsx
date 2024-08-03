@@ -20,7 +20,7 @@ interface HelloCards {
 }
 const SayHello = () => {
   return (
-    <div className="py-[152px] relative">
+    <div className="pt-[152px] relative">
       <div className="container max-w-[1180px]">
         <PrimaryHeading
           textName="Say hello to graph 2.0"
@@ -28,7 +28,7 @@ const SayHello = () => {
         />
         <Paragraph
           textName="We take away many of the widely spread pains associated with temporal graph analytics. One contextual platform to rule them all!"
-          className="pb-12 opacity-80 max-w-[592px] text-center mx-auto"
+          className=" pb-12 opacity-80 max-w-[592px] text-center mx-auto"
         />
         <div className="row items-center">
           <div className="lg:col-5 w-full px-3">
@@ -47,7 +47,7 @@ const SayHello = () => {
           </div>
           <div className="lg:col-7 w-full px-3 flex 2Xl:justify-start justify-center">
             {/* =====orange-bg====== */}
-            <div className="bg-dark_red xl:max-w-[868px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute 2XL:end-[15%] 2XL:top-[48%] end-0 top-[48%] lg:block hidden"></div>
+            <div className="bg-dark_red xl:max-w-[868px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute 2XL:end-[15%] 2XL:top-[48%] end-0 top-[59%] lg:block hidden"></div>
             <div className="flex gap-4 relative">
               {/* ======Swiper-ArrowIcon======= */}
               <div className="size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-9%] xl:top-[43%] lg:right-[3%] md:right-[40%] right-[23%] max-xl:bottom-[-22%] flex justify-center items-center z-20 border border-transparent max-lg:border-dark_red">

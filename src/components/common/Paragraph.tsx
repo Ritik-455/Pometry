@@ -7,7 +7,9 @@ interface Paragraph {
 const Paragraph = ({ className, textName }: Paragraph) => {
   return (
     <div>
-      <p className={`font-jakarta text-black ${className}`}>{textName}</p>
+      <p className={`font-jakarta text-black leading-6${className}`}>
+        {textName}
+      </p>
     </div>
   );
 };

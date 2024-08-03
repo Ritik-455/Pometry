@@ -33,23 +33,23 @@ export const EASY_TABS_DATA = [
 ];
 export const SOCIAL_LINKS_LIST = [
   {
-    img: "/assets/images/home/webp/data-brand-img.png",
+    img: "/assets/images/home/webp/data-brand-img.webp",
     height: 29,
   },
   {
-    img: "/assets/images/home/webp/meta-img.png",
+    img: "/assets/images/home/webp/meta-img.webp",
     height: 21,
   },
   {
-    img: "/assets/images/home/webp/data-center-img.png",
+    img: "/assets/images/home/webp/data-center-img.webp",
     height: 34,
   },
   {
-    img: "/assets/images/home/webp/google-analytice-img.png",
+    img: "/assets/images/home/webp/google-analytics-img.webp",
     height: 37,
   },
   {
-    img: "/assets/images/home/webp/data-center-img.png",
+    img: "/assets/images/home/webp/data-center-img.webp",
     height: 34,
   },
 ];
@@ -111,5 +111,3 @@ export const SPECIALTY_CARD_DATA = [
     para: "We are a team of ambitious and driven individuals, emphasising purpose and sense of belonging.",
   },
 ];
-
-
