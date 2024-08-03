@@ -9,7 +9,6 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        jakarta: "'Plus Jakarta Sans',sans-serif",
         courier: "'Courier Prime',monospace",
       },
       colors: {
@@ -30,7 +29,6 @@ const config: Config = {
         padding: {
           DEFAULT: "20px",
           sm: "24px",
-          xl: "20px",
         },
         center: true,
       },
