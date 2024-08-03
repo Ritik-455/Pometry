@@ -1,10 +1,10 @@
 import React from "react";
-interface PARAGRAPH {
+interface Paragraph {
   textName: string;
   className?: string;
 }
 
-const Paragraph = ({ className, textName }: PARAGRAPH) => {
+const Paragraph = ({ className, textName }: Paragraph) => {
   return (
     <div>
       <p className={`font-jakarta text-black ${className}`}>{textName}</p>

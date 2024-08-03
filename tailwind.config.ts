@@ -20,7 +20,7 @@ const config: Config = {
         yellow: "#EDF127",
         light_red: "#9D20351A",
         bright_yellow: "#EDF127",
-        Dim_Black: "#00000033",
+        dim_black: "#00000033",
       },
       boxShadow: {
         "3xl": "0px 8px 41px 0px #00000014",
@@ -40,21 +40,17 @@ const config: Config = {
       },
       backgroundImage: {
         mix_red: "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)",
-<<<<<<< HEAD
         light_red:
           "linear-gradient(96.09deg, rgba(227, 25, 48, 0.1) 0%, rgba(243, 87, 110, 0.1) 100%)",
         light_black:
           "linear-gradient(96.09deg, rgba(128, 24, 225, 0.02) 0%, rgba(144, 11, 226, 0.02) 100%)",
         none: "none",
-=======
-        light_red: "linear-gradient(96.09deg, rgba(227, 25, 48, 0.1) 0%, rgba(243, 87, 110, 0.1) 100%)",
-        smoke_red: "linear-gradient(96.09deg, rgba(227, 25, 48, 0.05) 0%, rgba(243, 87, 110, 0.05) 100%)",
-        light_black: "linear-gradient(96.09deg, rgba(128, 24, 225, 0.02) 0%, rgba(144, 11, 226, 0.02) 100%)",
->>>>>>> fd0d157434f3aec74fb52feee0ce34678b51a3e3
+        smoke_red:
+          "linear-gradient(96.09deg, rgba(227, 25, 48, 0.05) 0%, rgba(243, 87, 110, 0.05) 100%)",
       },
       boxShadowColor: {
-        "3xl": "0px 0px 12px 0px #0000001F"
-      }
+        "3xl": "0px 0px 12px 0px #0000001F",
+      },
     },
   },
   plugins: [],

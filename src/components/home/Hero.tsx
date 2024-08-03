@@ -11,13 +11,13 @@ interface SocialList {
 
 const Hero = () => {
   return (
-    <div className="bg-light _red backdrop-opa city-10 relative">
+    <div className="bg-[#FEF8F9] relative">
       <div id="home" className="lg:pt-[88px] md:pt-20 pt-16">
         <div className="container max-w-[1180px]">
           <div className="row lg:flex-row flex-col-reverse items-center">
             <div className="lg:col-6 px-3 lg:pt-0 sm:pt-10 pt-7">
               <h1 className="font-jakarta font-bold lg:text-6xl md:text-5xl text-4xl lg:leading-[66px] md:leading-[55px] text-black pb-3">
-                <span className="text_gradient">Realtime</span> graph analytics
+                <span className="gradient_text">Realtime</span> graph analytics
                 at scale
               </h1>
               <Paragraph

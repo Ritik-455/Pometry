@@ -1,10 +1,10 @@
 import React from "react";
-interface BUTTON {
+interface Button {
   textName: string;
   className?: string;
 }
 
-const CommonButton = ({ className, textName }: BUTTON) => {
+const CommonButton = ({ className, textName }: Button) => {
   return (
     <div>
       <button

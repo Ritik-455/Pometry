@@ -1,10 +1,10 @@
 import React from "react";
-interface PRIMARY_HEADING {
+interface PrimaryHeading {
   textName: string;
   className?: string;
 }
 
-const PrimaryHeading = ({ className, textName }: PRIMARY_HEADING) => {
+const PrimaryHeading = ({ className, textName }: PrimaryHeading) => {
   return (
     <div>
       <h2

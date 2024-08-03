@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS_LIST } from "../common/Helper";
 interface NavLink {
-  href: string;
-  nav_tabs: string;
+  url: string;
+  navlink: string;
 }
 
 const Header = () => {
@@ -19,10 +19,10 @@ const Header = () => {
   };
 
   return (
-    <nav>
+    <nav className="bg-[#FEF8F9]">
       <div className="container max-w-[1180px]">
         <div className="flex items-center justify-between pt-6">
-          <Link href="" aria-label="header-logo">
+          <Link href="/" aria-label="header-logo">
             <Image
               width={157}
               height={36}
@@ -51,7 +51,6 @@ const Header = () => {
               } ${nav && "rotate-0"}`}
             ></span>
           </div>
-
           <div
             className={`${nav && "max-lg:left-[-100%]"} ${
               !nav && "max-lg:start-0"
@@ -60,11 +59,11 @@ const Header = () => {
             {NAV_LINKS_LIST.map((obj: NavLink, index: number) => (
               <Link
                 key={index}
-                href={obj.href}
+                href={obj.url}
                 onClick={HANDLE_NAVBAR}
-                className="font-jakarta text-black opacity-90 gradient_text transition duration-300 ease-linear"
+                className="font-jakarta text-black opacity-90 hover:text-gradient_text transition duration-300 ease-linear"
               >
-                {obj.nav_tabs}
+                {obj.navlink}
               </Link>
             ))}
           </div>

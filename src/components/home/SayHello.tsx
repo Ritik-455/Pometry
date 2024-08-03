@@ -76,7 +76,7 @@ const SayHello = () => {
               >
                 {SAY_HELLO_CARDS.map((obj: HelloCards, index: number) => (
                   <SwiperSlide
-                    className="!w-[283px] !h-[321px] rounded-xl lg:px-6 lg:pt-6 lg:pb-10 p-6 bg-white hover:shadow-4xl border-[0.5px] border-Dim_Black hover:border-transparent transition ease-linear duration-300 z-10"
+                    className="!w-[283px] !h-[321px] rounded-xl lg:px-6 lg:pt-6 lg:pb-10 p-6 bg-white hover:shadow-4xl border-[0.5px] border-dim_black hover:border-transparent transition ease-linear duration-300 z-10"
                     key={index}
                   >
                     <div className="size-[46px] bg-light_red rounded flex justify-center items-center mb-6">
