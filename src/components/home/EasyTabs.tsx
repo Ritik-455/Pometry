@@ -14,16 +14,15 @@ interface EasyTab {
 const EasyTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
-  // Function to handle tab click
   const HANDLE_TAB_CLICK = (index: number) => {
     setActiveTab(index);
   };
   return (
     <div className="bg-jet_black">
       <div className="container max-w-[1180px] xl:pt-[124px] py-16 md:py-20 xl:pb-[101px]">
-        <PrimaryHeading textName="As Easy As" className="!text-white text-center" />
+        <PrimaryHeading textName="As Easy As" className="text-center !text-white " />
         <div className="flex justify-center">
-          <Paragraph textName="Ingest millions of rows per second from your relational database, CSV files, cloud storage or big data warehouses. No need to move or transform your data, simply point to your datasource!" className="!text-white opacity-80 max-w-[756px] text-center mt-3" />
+          <Paragraph textName="Ingest millions of rows per second from your relational database, CSV files, cloud storage or big data warehouses. No need to move or transform your data, simply point to your datasource!" className="opacity-80 max-w-[756px] text-center mt-3 !text-white " />
         </div>
         <div className="hidden md:block">
           <div className="row mt-14">

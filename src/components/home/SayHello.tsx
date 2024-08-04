@@ -47,24 +47,25 @@ const SayHello = () => {
           </div>
           <div className="lg:col-7 w-full px-3 flex 2xl:justify-end justify-center lg:pt-0 md:pt-10 pt-7">
             {/* =====orange-bg====== */}
-            <div className="bg-dark_red 2xl:max-w-[868px] max-lg:max-w-[761px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute 2XL:end-[12%] 2XL:top-[59%] end-0 top-[59%] lg:block hidden"></div>
+            <div className="bg-dark_red xl:max-w-[868px] lg:max-w-[658px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute 2XL:end-[5%] lg:top-[52%] xl:top-[54%] end-0 top-[59%] lg:block hidden"></div>
             <div className="flex gap-4 relative">
               {/* ======Swiper-ArrowIcon======= */}
-              <div className="size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-9%] xl:top-[43%] lg:right-[3%] md:right-[43%] max-md:right-[37%] max-xl:right-[23%] max-xl:bottom-[-22%] flex justify-center items-center z-20 border border-transparent max-lg:border-dark_red">
+              <div className="size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-9%] xl:top-[49%] lg:right-[42%] md:right-[43%] max-md:right-[37%] max-xl:right-[23%] max-xl:bottom-[-22%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red">
                 <NextArrowIcon />
               </div>
-              <div className="size-8 bg-white rounded-full absolute swiper-btn-prev xl:top-[43%] xl:left-[-8%] lg:left-[-9%] left-[26%] max-xl:bottom-[-22%] max-md:left-[32%] max-xl:left-[43%] flex justify-center items-center z-20 border border-transparent max-lg:border-dark_red">
+              <div className="size-8 bg-white rounded-full absolute swiper-btn-prev xl:top-[49%] xl:left-[-8%] lg:left-[42%] left-[26%] max-xl:bottom-[-22%] max-md:left-[32%] max-xl:left-[43%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red">
                 <PrevArrowIcon />
               </div>
               <Swiper
                 spaceBetween={16}
                 slidesPerView={1}
                 modules={[Navigation]}
+                loop={true}
                 navigation={{
                   nextEl: ".swiper-btn-next",
                   prevEl: ".swiper-btn-prev",
                 }}
-                className="md:max-w-[582px] max-w-[293px]"
+                className="md:max-w-[582px] max-w-[293px] p-6"
                 breakpoints={{
                   530: {
                     slidesPerView: 1,
