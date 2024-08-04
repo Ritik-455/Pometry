@@ -51,7 +51,6 @@ const EasyTabs = () => {
               </div>
             </div>
           ))}
-
         </div>
         {/* tab-1 content */}
         {activeTab === 0 && (
@@ -92,6 +91,7 @@ const EasyTabs = () => {
             </div>
           </div>
         )}
+        
         {/* tab-2 content */}
         {activeTab === 1 && (
           <div className="mt-10">
