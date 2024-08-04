@@ -20,22 +20,22 @@ interface HelloCards {
 }
 const SayHello = () => {
   return (
-    <div className="pt-[152px] relative">
+    <div className="xl:pt-[152px] lg:pt-32 md:pt-20 py-16 relative">
       <div className="container max-w-[1180px]">
         <PrimaryHeading
           textName="Say hello to graph 2.0"
-          className="pb-3 capitalize text-center"
+          className="md:pb-3 pb-2 capitalize text-center"
         />
         <Paragraph
           textName="We take away many of the widely spread pains associated with temporal graph analytics. One contextual platform to rule them all!"
-          className=" pb-12 opacity-80 max-w-[592px] text-center mx-auto"
+          className=" lg:pb-12 sm:pb-9 pb-5 opacity-80 max-w-[592px] text-center mx-auto"
         />
         <div className="row items-center">
           <div className="lg:col-5 w-full px-3">
             <div className="flex flex-col items-start">
               {SAY_HELLO_CONTENT.map((obj: HelloList, index: number) => (
                 <div key={index}>
-                  <div className="flex items-center gap-3 mb-6">
+                  <div className="flex items-center gap-3 lg:mb-6 mb-4">
                     <TikIcon />
                     <p className="font-jakarta font-semibold 2xl:text-xl text-lg text-jet_black">
                       {obj.content}
@@ -45,15 +45,15 @@ const SayHello = () => {
               ))}
             </div>
           </div>
-          <div className="lg:col-7 w-full px-3 flex 2Xl:justify-start justify-center">
+          <div className="lg:col-7 w-full px-3 flex 2xl:justify-end justify-center lg:pt-0 md:pt-10 pt-7">
             {/* =====orange-bg====== */}
-            <div className="bg-dark_red xl:max-w-[868px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute 2XL:end-[15%] 2XL:top-[48%] end-0 top-[59%] lg:block hidden"></div>
+            <div className="bg-dark_red 2xl:max-w-[868px] max-lg:max-w-[761px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute 2XL:end-[12%] 2XL:top-[59%] end-0 top-[59%] lg:block hidden"></div>
             <div className="flex gap-4 relative">
               {/* ======Swiper-ArrowIcon======= */}
-              <div className="size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-9%] xl:top-[43%] lg:right-[3%] md:right-[40%] right-[23%] max-xl:bottom-[-22%] flex justify-center items-center z-20 border border-transparent max-lg:border-dark_red">
+              <div className="size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-9%] xl:top-[43%] lg:right-[3%] md:right-[43%] max-md:right-[37%] max-xl:right-[23%] max-xl:bottom-[-22%] flex justify-center items-center z-20 border border-transparent max-lg:border-dark_red">
                 <NextArrowIcon />
               </div>
-              <div className="size-8 bg-white rounded-full absolute swiper-btn-prev xl:top-[43%] xl:left-[-8%] lg:left-[-9%] left-[26%] max-xl:bottom-[-22%] max-xl:right-[39%] flex justify-center items-center z-20 border border-transparent max-lg:border-dark_red">
+              <div className="size-8 bg-white rounded-full absolute swiper-btn-prev xl:top-[43%] xl:left-[-8%] lg:left-[-9%] left-[26%] max-xl:bottom-[-22%] max-md:left-[32%] max-xl:left-[43%] flex justify-center items-center z-20 border border-transparent max-lg:border-dark_red">
                 <PrevArrowIcon />
               </div>
               <Swiper

@@ -34,7 +34,7 @@ const config: Config = {
       },
       screens: {
         "2XL": "1536.99px",
-        XL: "1279.99px",
+        XL: "1280.99px",
       },
       backgroundImage: {
         mix_red: "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)",
