@@ -21,6 +21,7 @@ const config: Config = {
         bright_yellow: "#EDF127",
         dim_black: "#00000033",
         faint_pink: "#FEF8F9",
+        Charcoal: "#292828",
       },
       boxShadow: {
         "3xl": "0px 8px 41px 0px #00000014",
