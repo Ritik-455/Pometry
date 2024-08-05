@@ -24,9 +24,7 @@ const Hero = () => {
                 className="!text-jet_black opacity-80 max-w-[556px] lg:pb-11 md:pb-8 pb-5"
                 textName="Build and deliver realtime graph analytics scaling to billions of records in minutes. No expensive transformation pipelines, proprietary storage or dedicated SMEs."
               />
-              <CommonButton
-                textName="Learn More"
-              />
+              <CommonButton textName="Learn More" />
               <span className="absolute top-[22%] 2xl:left-[44%] xl:left-[43%] left-[38%] lg:block hidden">
                 <ArrowIcon />
               </span>

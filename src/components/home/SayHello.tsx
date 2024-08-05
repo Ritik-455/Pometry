@@ -30,7 +30,7 @@ const SayHello = () => {
           className=" lg:pb-9 sm:pb-9 pb-5 opacity-80 max-w-[592px] text-center mx-auto"
         />
         <div className="row items-center">
-          <div className="lg:col-5 w-full px-3">
+          <div className="lg:col-5 w-full px-3 lg:pt-12">
             <div className="flex flex-col items-start">
               {SAY_HELLO_CONTENT.map((obj: HelloList, index: number) => (
                 <div key={index}>
@@ -44,7 +44,7 @@ const SayHello = () => {
               ))}
             </div>
           </div>
-          <div className="lg:col-7 w-full px-3 flex 2xl:justify-end justify-center lg:pt-0 md:pt-9 pt-5">
+          <div className="lg:col-7 w-full px-3 flex 2xl:justify-end justify-center lg:pt-0 md:pt-9 pt-4">
             {/* =====orange-bg====== */}
             <div className="bg-mix_red xl:max-w-[852px] lg:max-w-[628px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute custom_2xl:end-[11%] lg:top-[52%] xl:top-[54%] end-0 top-[59%] lg:block hidden"></div>
             <div className="flex gap-4 relative">
