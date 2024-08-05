@@ -9,12 +9,13 @@ const Footer = () => {
       <div className="container xl:max-w-[1180px]">
         <div className="row !-mx-3">
           <div className="w-full lg:col-4 px-3">
-            <Link href="/">
+            <Link href="/" className="!w-fit">
               <Image
                 src="/assets/images/home/svg/footer-logo.svg"
                 width={236}
                 height={53}
                 alt="page-logo"
+                className=" inline-block"
               />
             </Link>
             <div className="flex items-center w-full gap-3 mt-4">
