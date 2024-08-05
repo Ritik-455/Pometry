@@ -92,22 +92,22 @@ export const SAY_HELLO_CARDS = [
 export const SPECIALTY_CARD_DATA = [
   {
     icon: <Bulb />,
-    head: "Innovation",
+    heading: "Innovation",
     para: "We are challenging prevailing assumptions about graphs through simple solutions.",
   },
   {
     icon: <Commitment />,
-    head: "Commitment",
+    heading: "Commitment",
     para: "We are committed in our mission to eliminate the problems that plague the graph market today.",
   },
   {
     icon: <Passion />,
-    head: "Passion",
+    heading: "Passion",
     para: "We care deeply about what we do. Sharing our success and findings with the wider graph community",
   },
   {
     icon: <Teamwork />,
-    head: "Teamwork",
+    heading: "Teamwork",
     para: "We are a team of ambitious and driven individuals, emphasising purpose and sense of belonging.",
   },
 ];
