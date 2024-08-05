@@ -9,11 +9,11 @@ const Community = () => {
   return (
     <div className="xl:py-[152px] md:py-20 py-16 2xl:max-w-[1920px] mx-auto">
       <div className="container xl:max-w-[1180px]">
-        <div className="w-full py-[88px] px-6 rounded-[32px] shadow-3xl bg-mix_red relative z-30 overflow-hidden">
+        <div className="w-full lg:py-[88px] md:py-[60px] sm:py-12 py-10 px-6 rounded-[32px] shadow-3xl bg-mix_red relative z-30 overflow-hidden">
           <div className="max-w-[790px] mx-auto text-center">
             <PrimaryHeading
               textName="Join Our Community"
-              className="!text-white mb-3"
+              className="!text-white mb-3 max-sm:leading-9"
             />
             <Paragraph
               className="!text-white mb-6"

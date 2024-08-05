@@ -1,11 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import { FOOTER_ITEMS, SOCIAL_ICON } from "./Helper";
+import { FOOTER_ELLIPSE, FOOTER_ITEMS, SOCIAL_ICON } from "./Helper";
 import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="xl:pt-[100px] md:pt-20 pt-16 lg:pb-8 pb-5 bg-black">
+    <div className="xl:pt-[100px] md:pt-20 pt-16 lg:pb-8 pb-5 overflow-hidden bg-black 2xl:max-w-[1920px] mx-auto relative z-30">
       <div className="container xl:max-w-[1180px]">
         <div className="row !-mx-3">
           <div className="w-full lg:col-4 px-3">
@@ -65,6 +65,13 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      {/* ellipse */}
+      {FOOTER_ELLIPSE.map((vlaue, index) => (
+        <div
+          key={index}
+          className={`opacity-15 bg-mix_red absolute pointer-events-none -z-20 ${vlaue.className}`}
+        ></div>
+      ))}
     </div>
   );
 };

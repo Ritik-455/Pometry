@@ -19,13 +19,13 @@ const CommonBlog = () => {
       <div className="container xl:max-w-[1180px] pt-[50px]">
         <PrimaryHeading
           textName="Latest Blogs"
-          className="mb-[52px] text-center"
+          className="xl:mb-[52px] lg:mb-12 sm:mb-10 mb-7 text-center"
         />
-        <div className="flex gap-5 lg:flex-row flex-col justify-center items-center">
+        <div className="flex gap-5 lg:flex-row flex-col justify-center max-lg:items-center">
           {BLOG_DATA.map((value, index) => (
             <div
               key={index}
-              className="p-4 h-[453px] max-w-[366px] w-full rounded-xl bg-white border border-grey flex flex-col justify-between"
+              className="p-4 sm:min-h-[453px] max-w-[366px] w-full rounded-xl bg-white border border-grey flex flex-col justify-between"
             >
               <div>
                 <Image
@@ -34,9 +34,9 @@ const CommonBlog = () => {
                   width={334}
                   height={225}
                   rel="preload"
-                  className="rounded-lg mb-[10px]"
+                  className="rounded-lg mb-[10px] pointer-events-none"
                 />
-                <p className="font-jakarta font-semibold text-2xl leading-8 text-jet_black ">
+                <p className="font-jakarta font-semibold sm:text-2xl text-xl leading-6 sm:leading-8 text-jet_black ">
                   {value.blogTitle}
                 </p>
               </div>
@@ -53,6 +53,7 @@ const CommonBlog = () => {
                       alt="blog-profile"
                       width={32}
                       height={32}
+                      className="cursor-pointer pointer-events-none"
                     />
                     <p className="opacity-80 font-jakarta font-normal text-sm leading-5 text-jet_black">
                       Joy Ban

@@ -180,3 +180,17 @@ export const SPECIALTY_CARD_DATA = [
     para: "We are a team of ambitious and driven individuals, emphasising purpose and sense of belonging.",
   },
 ];
+export const FOOTER_ELLIPSE = [
+  {
+    className: "blur-[67px] w-[423px] h-[310px] -top-[18%] -left-[13%]",
+  },
+  {
+    className: "blur-[50px] w-[340px] h-[171px] -top-[16%] right-[19%]",
+  },
+  {
+    className: "blur-[85px] w-[340px] h-[171px] -bottom-[16%] left-[19%]",
+  },
+  {
+    className: "blur-[100px] w-[423px] h-[310px] -bottom-[18%] -right-[13%]",
+  },
+];
