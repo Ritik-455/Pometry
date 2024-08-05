@@ -20,6 +20,7 @@ const config: Config = {
         light_red: "#9D20351A",
         bright_yellow: "#EDF127",
         dim_black: "#00000033",
+        faint_pink: "#FEF8F9",
       },
       boxShadow: {
         "3xl": "0px 8px 41px 0px #00000014",
@@ -34,8 +35,7 @@ const config: Config = {
         center: true,
       },
       screens: {
-        "2XL": "1536.99px",
-        XL: "1280.99px",
+        custom_2xl: "1536.99px",
       },
       backgroundImage: {
         mix_red: "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)",
