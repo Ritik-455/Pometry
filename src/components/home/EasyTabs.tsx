@@ -22,7 +22,7 @@ const EasyTabs = () => {
       <div className="container max-w-[1180px] xl:pt-[124px] py-16 md:py-20 xl:pb-[101px]">
         <PrimaryHeading textName="As Easy As" className="text-center !text-white " />
         <div className="flex justify-center">
-          <Paragraph textName="Ingest millions of rows per second from your relational database, CSV files, cloud storage or big data warehouses. No need to move or transform your data, simply point to your datasource!" className="opacity-80 max-w-[756px] text-center mt-3 !text-white " />
+          <Paragraph textName="Ingest millions of rows per second from your relational database, CSV files, cloud storage or big data warehouses. No need to move or transform your data, simply point to your datasource!" className=" opacity-80 max-w-[756px] text-center mt-3 !text-white " />
         </div>
         <div className="hidden md:block">
           <div className="row mt-14">
