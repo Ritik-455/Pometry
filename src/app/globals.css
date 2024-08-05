@@ -71,11 +71,9 @@
 
 .underline_gradient::after {
   transform: scaleX(0);
-  transform-origin: bottom right;
   transition: transform 0.3s ease-in-out;
 }
 
 .underline_gradient:hover::after {
   transform: scaleX(1);
-  transform-origin: bottom left;
 }
