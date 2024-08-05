@@ -13,13 +13,13 @@ const config: Config = {
         courier: "'Courier Prime',monospace",
       },
       colors: {
-        black: "#111111",
+        jet_black: "#111111",
         dark_red: "#9D2035",
         light_black: "#FFFFFF1A",
         green: "#00c136",
         yellow: "#EDF127",
         light_red: "#9D20351A",
-        grey: "#1111111A",
+        cosmic_black: "#FFFFFF1A",
       },
       boxShadow: {
         "3xl": "0px 8px 41px 0px #00000014",

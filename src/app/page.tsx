@@ -6,12 +6,12 @@ import SayHello from "@/components/home/SayHello";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-hidden">
       <Hero />
       <Easy />
       <SayHello />
       <Community />
       <CommonBlog />
-    </>
+    </div>
   );
 }
