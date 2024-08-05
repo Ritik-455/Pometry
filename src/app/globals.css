@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
   scroll-behavior: smooth;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 @layer components {
@@ -26,19 +28,46 @@
   .col-4 {
     @apply w-[33.33%] px-[12px];
   }
+
   .col-6 {
     @apply w-[50%] pl-[12px] pr-[12px];
   }
+
   .col-5 {
     @apply w-[41.65%] pl-[12px] pr-[12px];
   }
+
   .col-7 {
     @apply w-[58.31%] pl-[12px] pr-[12px];
   }
+
   .col-8 {
     @apply w-[66.64%] pl-[12px] pr-[12px];
   }
+
   .col-12 {
     @apply w-[100%] px-[12px];
   }
+}
+/* .gradient_text {
+  background: linear-gradient(96.09deg, #e31930 0%, #f3576e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient_text :hover {
+  background: linear-gradient(96.09deg, #e31930 0%, #f3576e 100%);
+} */
+.gradient_transition {
+  -webkit-transition: 5s linear;
+}
+
+.gradient_text-hover:hover {
+  background: linear-gradient(96.09deg, #f3576e 0%, #e31930 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero_gradient_text {
+  background: linear-gradient(96.09deg, #f3576e 0%, #e31930 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

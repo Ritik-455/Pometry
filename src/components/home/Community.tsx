@@ -25,7 +25,7 @@ const Community = () => {
                   key={index}
                   href={value.link}
                   target="_blank"
-                  className="size-[42px] bg-white rounded-[57px] flex items-center justify-center duration-300 ease-linear hover:shadow-4xl"
+                  className="size-[42px] bg-white rounded-[57px] flex items-center justify-center duration-300 ease-linear hover:shadow-5xl"
                 >
                   <span>{value.icon}</span>
                 </Link>
