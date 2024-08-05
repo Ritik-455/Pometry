@@ -29,7 +29,6 @@ export const SlackIcon = ({ iconColor }: socialIcon) => (
     </defs>
   </svg>
 );
-
 export const LinkedIcon = ({ iconColor }: socialIcon) => (
   <svg
     width="25"

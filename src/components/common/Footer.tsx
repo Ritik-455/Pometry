@@ -23,7 +23,7 @@ const Footer = () => {
                   key={index}
                   href={value.link}
                   target="_blank"
-                  className="size-[42px] bg-cosmic_black rounded-[57px] flex items-center justify-center duration-300 ease-linear hover:shadow-4xl"
+                  className="size-[42px] bg-cosmic_black rounded-[57px] flex flex-col items-center justify-center duration-300 ease-linear hover:shadow-5xl"
                 >
                   <span>
                     {React.cloneElement(value.icon, {
@@ -48,7 +48,7 @@ const Footer = () => {
                     <li key={index}>
                       <Link
                         href="/"
-                        className="opacity-70 text-base font-normal leading-6 font-jakarta text-white text-nowrap"
+                        className="opacity-70 duration-300 ease-linear hover:opacity-100 text-base font-normal leading-6 font-jakarta text-white text-nowrap"
                       >
                         {data}
                       </Link>
