@@ -1,7 +1,7 @@
 import Link from "next/link";
-import React from "react";
 import { FOOTER_ELLIPSE, FOOTER_ITEMS, SOCIAL_ICON } from "./Helper";
 import Image from "next/image";
+import React from "react";
 
 const Footer = () => {
   return (
@@ -66,10 +66,10 @@ const Footer = () => {
         </div>
       </div>
       {/* ellipse */}
-      {FOOTER_ELLIPSE.map((vlaue, index) => (
+      {FOOTER_ELLIPSE.map((value, index) => (
         <div
           key={index}
-          className={`opacity-15 bg-mix_red absolute pointer-events-none -z-20 ${vlaue.className}`}
+          className={`opacity-15 bg-mix_red absolute pointer-events-none -z-20 ${value.className}`}
         ></div>
       ))}
     </div>

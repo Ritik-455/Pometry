@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import { SOCIAL_ICON } from "../common/Helper";
 import PrimaryHeading from "../common/PrimaryHeading";
 import Paragraph from "../common/Paragraph";

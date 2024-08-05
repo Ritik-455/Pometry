@@ -1,10 +1,10 @@
-import React from "react";
 import PrimaryHeading from "./PrimaryHeading";
 import Image from "next/image";
 import Paragraph from "./Paragraph";
 import { BLOG_DATA } from "./Helper";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { ArrowIcon } from "./Icon";
 
 const CommonBlog = () => {
   const settings = {
@@ -16,11 +16,14 @@ const CommonBlog = () => {
   };
   return (
     <div className="xl:pb-[152px] md:pb-20 pb-16 2xl:max-w-[1920px] mx-auto">
-      <div className="container xl:max-w-[1180px] pt-[50px]">
+      <div className="container xl:max-w-[1180px] md:pt-[50px] sm:pt-8 relative z-30">
         <PrimaryHeading
           textName="Latest Blogs"
           className="xl:mb-[52px] lg:mb-12 sm:mb-10 mb-7 text-center"
         />
+        <span className="absolute lg:right-[30%] md:right-[22%] right-[18%] top-0 -z-20 sm:block hidden">
+          <ArrowIcon />
+        </span>
         <div className="flex gap-5 lg:flex-row flex-col justify-center max-lg:items-center">
           {BLOG_DATA.map((value, index) => (
             <div
@@ -36,7 +39,7 @@ const CommonBlog = () => {
                   rel="preload"
                   className="rounded-lg mb-[10px] pointer-events-none"
                 />
-                <p className="font-jakarta font-semibold sm:text-2xl text-xl leading-6 sm:leading-8 text-jet_black ">
+                <p className="font-jakarta font-semibold sm:text-2xl text-xl leading-6 sm:leading-8 text-jet_black">
                   {value.blogTitle}
                 </p>
               </div>

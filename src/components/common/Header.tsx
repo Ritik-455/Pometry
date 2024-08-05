@@ -61,7 +61,7 @@ const Header = () => {
                 key={index}
                 href={obj.url}
                 onClick={HANDLE_NAVBAR}
-                className="font-jakarta text-black opacity-90 max-lg:text-2xl gradient_text-hover gradient_transition relative after:[absolute] after:content-[''] after:h-[1px] after:w-0 after:bg-dark_red after:bottom-0 after:left-[50%] after:-translate-x-1/2 max-lg:after:-bottom-2 hover:after:w-full"
+                className="font-jakarta text-Charcoal max-lg:text-2xl gradient_text_hover underline_gradient relative after:absolute after:h-[1px] after:w-full after:bottom-0 after:left-0 after:bg-mix_red after:rounded"
               >
                 {obj.navlink}
               </Link>

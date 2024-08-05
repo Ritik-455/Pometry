@@ -50,17 +50,17 @@ export const BLOG_DATA = [
   {
     blogImage: "/assets/images/home/webp/blog-img-1.webp",
     blogTitle: "Making Decisions with data Analytics",
-    blogProfile: "/assets/images/home/svg/blog_profile.svg",
+    blogProfile: "/assets/images/home/svg/blog-profile.svg",
   },
   {
     blogImage: "/assets/images/home/webp/blog-img-2.webp",
     blogTitle: "The Role of Machine Learning in Data Analytics",
-    blogProfile: "/assets/images/home/svg/blog_profile_2.svg",
+    blogProfile: "/assets/images/home/svg/blog-profile-2.svg",
   },
   {
     blogImage: "/assets/images/home/webp/blog-img-1.webp",
     blogTitle: "Making Decisions with data Analytics",
-    blogProfile: "/assets/images/home/svg/blog_profile_3.svg",
+    blogProfile: "/assets/images/home/svg/blog-profile-3.svg",
   },
 ];
 export const FOOTER_ITEMS = [
