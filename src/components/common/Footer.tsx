@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
         <div className="xl:mt-[98px] pt-16 text-center lg:text-end">
           <p className="font-jakarta font-normal text-sm leading-5 text-white opacity-70">
-            Copyright © 2023 Pometry. All rights reserved
+            Copyright © 2024 Pometry. All rights reserved
           </p>
         </div>
       </div>

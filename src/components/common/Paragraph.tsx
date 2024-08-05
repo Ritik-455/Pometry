@@ -1,7 +1,9 @@
+import { ReactNode } from "react";
+
 interface Paragraph {
   textName: string;
   className?: string;
-  redText?: string;
+  redText?: ReactNode;
 }
 
 const Paragraph = ({ className, textName, redText }: Paragraph) => {

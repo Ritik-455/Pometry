@@ -5,6 +5,7 @@ import { BLOG_DATA } from "./Helper";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ArrowIcon } from "./Icon";
+import Link from "next/link";
 
 const CommonBlog = () => {
   const settings = {
@@ -47,7 +48,7 @@ const CommonBlog = () => {
                 <Paragraph
                   className="opacity-80 !text-black"
                   textName="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim massa, porttitor vitaet"
-                  redText="Read more..."
+                  redText={<Link href="/">Read more...</Link>}
                 />
                 <div className="flex justify-between items-center mt-3">
                   <div className="flex items-center gap-[6px]">
