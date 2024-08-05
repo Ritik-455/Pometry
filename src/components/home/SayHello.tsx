@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -20,7 +19,7 @@ interface HelloCards {
 }
 const SayHello = () => {
   return (
-    <div className="xl:pt-[152px] lg:pt-32 md:pt-20 py-16 relative">
+    <div className="xl:pt-[152px] lg:pt-32 md:pt-20 py-16 relative 2xl:max-w-[1920px] mx-auto">
       <div className="container max-w-[1180px]">
         <PrimaryHeading
           textName="Say hello to graph 2.0"
@@ -45,22 +44,22 @@ const SayHello = () => {
               ))}
             </div>
           </div>
-          <div className="lg:col-7 w-full px-3 flex 2xl:justify-end justify-center lg:pt-0 md:pt-10 pt-7">
+          <div className="lg:col-7 w-full px-3 flex 2xl:justify-end justify-center lg:pt-0 md:pt-9 pt-7">
             {/* =====orange-bg====== */}
-            <div className="bg-dark_red xl:max-w-[868px] lg:max-w-[658px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute 2XL:end-[5%] lg:top-[52%] xl:top-[54%] end-0 top-[59%] lg:block hidden"></div>
+            <div className="bg-mix_red xl:max-w-[868px] lg:max-w-[658px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute custom_2xl:end-[11%] lg:top-[52%] xl:top-[54%] end-0 top-[59%] lg:block hidden"></div>
             <div className="flex gap-4 relative">
               {/* ======Swiper-ArrowIcon======= */}
-              <div className="size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-9%] xl:top-[49%] lg:right-[42%] md:right-[43%] max-md:right-[37%] max-xl:right-[23%] max-xl:bottom-[-22%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red">
+              <div className="size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-9%] xl:top-[49%] lg:right-[42%] md:right-[43%] max-md:right-[37%] max-xl:right-[23%] max-xl:bottom-[-19%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red cursor-pointer">
                 <NextArrowIcon />
               </div>
-              <div className="size-8 bg-white rounded-full absolute swiper-btn-prev xl:top-[49%] xl:left-[-8%] lg:left-[42%] left-[26%] max-xl:bottom-[-22%] max-md:left-[32%] max-xl:left-[43%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red">
+              <div className="size-8 bg-white rounded-full absolute swiper-btn-prev xl:top-[49%] xl:left-[-8%] lg:left-[42%] left-[26%] max-xl:bottom-[-19%] max-md:left-[32%] max-xl:left-[43%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red cursor-pointer">
                 <PrevArrowIcon />
               </div>
               <Swiper
                 spaceBetween={16}
                 slidesPerView={1}
-                modules={[Navigation]}
                 loop={true}
+                modules={[Navigation]}
                 navigation={{
                   nextEl: ".swiper-btn-next",
                   prevEl: ".swiper-btn-prev",
@@ -70,6 +69,9 @@ const SayHello = () => {
                   530: {
                     slidesPerView: 1,
                   },
+                  768: {
+                    slidesPerView: 2,
+                  },
                   1024: {
                     slidesPerView: 2,
                   },
@@ -77,13 +79,13 @@ const SayHello = () => {
               >
                 {SAY_HELLO_CARDS.map((obj: HelloCards, index: number) => (
                   <SwiperSlide
-                    className="!w-[283px] !h-[321px] rounded-xl lg:px-6 lg:pt-6 lg:pb-10 p-6 bg-white hover:shadow-4xl border-[0.5px] border-dim_black hover:border-[0.5px] hover:border-transparent transition ease-linear duration-300 z-10"
+                    className="sm:!w-[283px] w-[293px] !sm:h-[321px] !h-[290px] rounded-xl lg:px-6 lg:pt-6 lg:pb-10 sm:p-6 p-5 bg-white hover:shadow-4xl border-[0.5px] border-dim_black hover:border-[0.5px] hover:border-transparent transition ease-linear duration-300 z-10"
                     key={index}
                   >
-                    <div className="size-[46px] bg-light_red rounded flex justify-center items-center mb-6">
+                    <div className="size-[46px] bg-light_red rounded flex justify-center items-center sm:mb-6 mb-5">
                       {obj.icon}
                     </div>
-                    <h4 className="font-jakarta font-semibold text-2xl pb-2">
+                    <h4 className="font-jakarta font-semibold lg:text-2xl text-xl pb-2">
                       {obj.heading}
                     </h4>
                     <Paragraph
