@@ -18,11 +18,11 @@ const EasyTabs = () => {
     setActiveTab(index);
   };
   return (
-    <div className="bg-jet_black">
+    <div className="bg-jet_black max-w-[1920px] mx-auto relative overflow-hidden">
       <div className="container max-w-[1180px] xl:pt-[124px] py-16 md:py-20 xl:pb-[101px]">
         <PrimaryHeading textName="As Easy As" className="text-center !text-white " />
         <div className="flex justify-center">
-          <Paragraph textName="Ingest millions of rows per second from your relational database, CSV files, cloud storage or big data warehouses. No need to move or transform your data, simply point to your datasource!" className="opacity-80 max-w-[756px] text-center mt-3 !text-white " />
+          <Paragraph textName="Ingest millions of rows per second from your relational database, CSV files, cloud storage or big data warehouses. No need to move or transform your data, simply point to your datasource!" className=" opacity-80 max-w-[756px] text-center mt-3 !text-white " />
         </div>
         <div className="hidden md:block">
           <div className="row mt-14">
@@ -153,6 +153,10 @@ const EasyTabs = () => {
           </div>
         )}
       </div>
+      <div className="w-[377px] h-[310px] bg-mix_red blur-[200px] rounded-full opacity-75 absolute bottom-[-13%] left-[-20%] hidden xl:block"></div>
+      <div className="w-[377px] h-[310px] bg-mix_red blur-[200px] rounded-full opacity-75 absolute bottom-[15%] right-[-24%] hidden xl:block"></div>
+      <div className="w-[377px] h-[310px] bg-mix_red blur-[200px] rounded-full opacity-75 absolute top-[29%] left-[-28%] hidden xl:block"></div>
+      <div className="w-[377px] h-[310px] bg-mix_red blur-[200px] rounded-full opacity-75 absolute top-[-17%] right-[-15%] hidden xl:block"></div>
     </div>
   )
 };

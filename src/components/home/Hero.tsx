@@ -12,19 +12,21 @@ interface SocialList {
 const Hero = () => {
   return (
     <div className="bg-faint_pink relative">
-      <div id="home" className="lg:pt-[78px] md:pt-10 pt-8">
+      <div id="home" className="lg:pt-[78px] pt-16">
         <div className="container max-w-[1180px]">
           <div className="row lg:flex-row flex-col-reverse items-center">
-            <div className="lg:col-6 px-3 lg:pt-0 pt-2">
-              <h1 className="font-jakarta font-bold xl:text-6xl md:text-5xl text-4xl lg:!leading-[66px] md:leading-[55px] text-black pb-3 capitalize">
+            <div className="lg:col-6 px-3 lg:pt-0 sm:pt-2 pt-0">
+              <h1 className="font-jakarta font-bold xl:text-6xl md:text-5xl text-4xl lg:!leading-[66px] md:leading-[55px] text-black pb-3 capitalize max-lg:text-center">
                 <span className="hero_gradient_text">Realtime</span> graph
                 analytics at scale
               </h1>
               <Paragraph
-                className="!text-jet_black opacity-80 max-w-[556px] lg:pb-11 md:pb-8 pb-5"
+                className="!text-jet_black opacity-80 max-w-[556px] lg:pb-11 md:pb-7 pb-5 max-lg:text-center mx-auto"
                 textName="Build and deliver realtime graph analytics scaling to billions of records in minutes. No expensive transformation pipelines, proprietary storage or dedicated SMEs."
               />
-              <CommonButton textName="Learn More" />
+              <div className="text-center">
+                <CommonButton textName="Learn More" />
+              </div>
               <span className="absolute top-[22%] 2xl:left-[44%] xl:left-[43%] left-[38%] lg:block hidden">
                 <ArrowIcon />
               </span>

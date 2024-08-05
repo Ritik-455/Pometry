@@ -19,7 +19,7 @@ interface HelloCards {
 }
 const SayHello = () => {
   return (
-    <div className="xl:pt-[152px] lg:pt-32 md:pt-20 py-16 relative 2xl:max-w-[1920px] mx-auto">
+    <div className="xl:pt-[152px] xl:pb-0 md:py-20 py-16 relative 2xl:max-w-[1920px] mx-auto">
       <div className="container max-w-[1180px]">
         <PrimaryHeading
           textName="Say hello to graph 2.0"
@@ -30,7 +30,7 @@ const SayHello = () => {
           className=" lg:pb-9 sm:pb-9 pb-5 opacity-80 max-w-[592px] text-center mx-auto"
         />
         <div className="row items-center">
-          <div className="lg:col-5 w-full px-3 lg:pt-12">
+          <div className="lg:col-5 w-full px-3 lg:pt-12 max-lg:justify-center flex">
             <div className="flex flex-col items-start">
               {SAY_HELLO_CONTENT.map((obj: HelloList, index: number) => (
                 <div key={index}>
