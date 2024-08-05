@@ -45,8 +45,8 @@ const SayHello = () => {
             </div>
           </div>
           <div className="lg:col-7 w-full px-3 flex 2xl:justify-end justify-center lg:pt-0 md:pt-9 pt-4">
-            {/* =====orange-bg====== */}
-            <div className="bg-mix_red xl:max-w-[852px] lg:max-w-[628px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute custom_2xl:end-[11%] lg:top-[52%] xl:top-[54%] end-0 top-[59%] lg:block hidden"></div>
+            {/* =====red-bg====== */}
+            <div className="bg-mix_red xl:max-w-[852px] lg:max-w-[628px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute custom_2xl:end-[11%] lg:top-[52%] xl:top-[60%] end-0 top-[59%] lg:block hidden"></div>
             <div className="flex gap-4 relative">
               {/* ======Swiper-ArrowIcon======= */}
               <div className="size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-9%] xl:top-[48%] lg:right-[42%] md:right-[43%] max-md:right-[37%] max-xl:right-[23%] max-xl:bottom-[-19%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red cursor-pointer">
