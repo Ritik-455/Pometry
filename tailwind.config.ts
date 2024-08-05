@@ -28,6 +28,7 @@ const config: Config = {
         "3xl": "0px 8px 41px 0px #00000014",
         "4xl": "0px 0px 24px 0px #0000001F",
         "5xl": "0px 0px 0px 2px #9D20351A, 0px 0px 15px #ffffff",
+        "7xl": "0px 0px 12px 0px #0000001F",
       },
       container: {
         padding: {
@@ -48,9 +49,6 @@ const config: Config = {
         none: "none",
         smoke_red:
           "linear-gradient(96.09deg, rgba(227, 25, 48, 0.05) 0%, rgba(243, 87, 110, 0.05) 100%)",
-      },
-      boxShadowColor: {
-        "3xl": "0px 0px 12px 0px #0000001F",
       },
     },
   },
