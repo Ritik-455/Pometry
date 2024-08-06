@@ -73,10 +73,10 @@ const EasyTabs = () => {
             </div>
             <div className="flex flex-col items-center">
               <Image
-                src="/assets/images/home/webp/run-queries.webp"
+                src="/assets/images/home/webp/run-time.webp"
                 height={195}
                 width={640}
-                alt="Run"
+                alt="run"
               />
               <div className="max-w-[596px] w-full bg-light_black p-4 sm:p-[35px_43px_24px_43px] border border-[#FFFFFF1F] rounded-[15px]">
                 <p className="text-xl font-jakarta text-white">Run Queries / Analysis</p>
@@ -91,7 +91,7 @@ const EasyTabs = () => {
             </div>
           </div>
         )}
-        
+
         {/* tab-2 content */}
         {activeTab === 1 && (
           <div className="mt-10">
