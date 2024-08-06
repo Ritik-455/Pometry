@@ -39,7 +39,7 @@ const EasyTabs = () => {
             ))}
           </div>
         </div>
-        <div className="flex md:hidden overflow-x-scroll gap-5 mt-6">
+        <div className="flex md:hidden overflow-x-scroll gap-5 mt-6 custom-scrollbar">
           {EASY_TABS_DATA.map((data: EasyTab, index) => (
             <div className={`${index === activeTab ? 'md:border-dark_red' : 'md:border-[#2E2E2E]'} md:border-l-[2px] min-h-[180px] cursor-pointer`} key={index} onClick={() => HANDLE_TAB_CLICK(index)}>
               <div className="lg:pl-6 pt-6">

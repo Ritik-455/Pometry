@@ -8,6 +8,40 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(150, 148, 148);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(96.09deg, #E31930 0%, #F3576E 100%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #2E2E2E;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #ff4d4d;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #ff1a1a;
+}
+
 @layer components {
   .row {
     @apply flex flex-wrap flex-row mx-[-12px];
