@@ -11,7 +11,7 @@ interface SocialList {
 const Hero = () => {
   return (
     <div className="bg-faint_pink relative 2xl:max-w-[1920px] mx-auto">
-      <div id="home" className="lg:pt-[78px] pt-16">
+      <div id="home" className="md:pt-20 pt-16">
         <div className="container max-w-[1180px]">
           <div className="row lg:flex-row flex-col-reverse items-center">
             <div className="lg:col-6 px-3">
