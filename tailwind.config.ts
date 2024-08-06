@@ -24,6 +24,7 @@ const config: Config = {
         dim_black: "#00000033",
         faint_pink: "#FEF8F9",
         charcoal: "#292828",
+        charcoal_gray:"#403F40"
       },
       boxShadow: {
         "3xl": "0px 8px 41px 0px #00000014",

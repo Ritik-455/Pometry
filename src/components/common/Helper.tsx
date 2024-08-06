@@ -1,3 +1,5 @@
+// import benSteerImg from "/assets/images/ourteam/png/ben-steer-slider-img.png";
+
 import { LinkedIcon, SlackIcon, TwitterIcon } from "./Icon";
 import {
   LoadExistingIcon,
@@ -194,3 +196,8 @@ export const FOOTER_ELLIPSE = [
     className: "blur-[100px] w-[423px] h-[310px] -bottom-[18%] -right-[13%]",
   },
 ];
+// export const MEET_OUR_TEAM = [
+//   {
+//     img: benSteerImg,
+//   },
+// ];
