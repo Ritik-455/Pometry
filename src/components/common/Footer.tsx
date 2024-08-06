@@ -65,8 +65,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-
-      
       {/* ellipse */}
       {FOOTER_ELLIPSE.map((value, index) => (
         <div
