@@ -1,4 +1,3 @@
-import React from "react";
 interface Button {
   textName: string;
   className?: string;
