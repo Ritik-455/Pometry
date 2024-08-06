@@ -19,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-faint_pink">
+    <nav className="bg-faint_pink 2xl:max-w-[1920px] mx-auto">
       <div className="container max-w-[1180px]">
         <div className="flex items-center justify-between pt-6">
           <Link href="/" aria-label="header-logo">
@@ -61,7 +61,7 @@ const Header = () => {
                 key={index}
                 href={obj.url}
                 onClick={HANDLE_NAVBAR}
-                className="font-jakarta text-Charcoal max-lg:text-2xl gradient_text_hover underline_gradient relative after:absolute after:h-[1px] after:w-full after:bottom-0 after:left-0 after:bg-mix_red after:rounded gradient_transition"
+                className="font-jakarta text-charcoal max-lg:text-2xl gradient_text_hover underline_gradient relative after:absolute after:h-[1px] after:w-full after:bottom-0 after:left-0 after:bg-mix_red after:rounded gradient_transition"
               >
                 {obj.navlink}
               </Link>

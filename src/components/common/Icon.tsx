@@ -1139,8 +1139,8 @@ export const PrevArrowIcon = () => (
 );
 export const ArrowIcon = () => (
   <svg
-    width="122"
-    height="123"
+    width="98"
+    height="101"
     viewBox="0 0 122 123"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

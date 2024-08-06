@@ -1,4 +1,3 @@
-import React from "react";
 import Paragraph from "../common/Paragraph";
 import CommonButton from "../common/CommonButton";
 import Image from "next/image";
@@ -11,7 +10,7 @@ interface SocialList {
 
 const Hero = () => {
   return (
-    <div className="bg-faint_pink relative">
+    <div className="bg-faint_pink relative 2xl:max-w-[1920px] mx-auto">
       <div id="home" className="lg:pt-[78px] pt-16">
         <div className="container max-w-[1180px]">
           <div className="row lg:flex-row flex-col-reverse items-center">
@@ -27,7 +26,7 @@ const Hero = () => {
               <div className="max-lg:text-center">
                 <CommonButton textName="Learn More" />
               </div>
-              <span className="absolute top-[22%] 2xl:left-[44%] xl:left-[43%] left-[38%] lg:block hidden">
+              <span className="absolute top-[23%] 2xl:left-[45%] xl:left-[44%] left-[38%] lg:block hidden">
                 <ArrowIcon />
               </span>
             </div>
@@ -41,14 +40,14 @@ const Hero = () => {
               />
             </div>
           </div>
-          <div className="flex flex-wrap justify-center items-center xl:gap-[109px] lg:gap-16 sm:gap-16 gap-9 pb-4 lg:pt-[108px] md:pt-20 pt-16">
+          <div className="flex flex-wrap justify-center items-center xl:gap-[109px] lg:gap-16 sm:gap-16 gap-9 pb-4 lg:pt-[108px] md:pt-20 pt-12">
             {SOCIAL_LINKS_LIST.map((obj: SocialList, index: number) => (
               <div key={index}>
                 <Image
                   src={obj.img}
                   width={109}
                   height={obj.height}
-                  alt="sql-img1"
+                  alt="social-icon-list"
                   className="max-sm:max-w-[70px] pointer-events-none"
                 />
               </div>
