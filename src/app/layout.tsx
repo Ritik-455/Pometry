@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
+import BackToTopButton from "@/components/common/BackToTopButton";
 
 export const metadata: Metadata = {
   title: "Pometry",
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <BackToTopButton />
       </body>
     </html>
   );
