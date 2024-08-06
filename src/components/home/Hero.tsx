@@ -14,7 +14,7 @@ const Hero = () => {
       <div id="home" className="lg:pt-[78px] pt-16">
         <div className="container max-w-[1180px]">
           <div className="row lg:flex-row flex-col-reverse items-center">
-            <div className="lg:col-6 px-3 lg:pt-0 sm:pt-2 pt-0">
+            <div className="lg:col-6 px-3">
               <h1 className="font-jakarta font-bold xl:text-6xl md:text-5xl text-4xl lg:!leading-[66px] md:leading-[55px] text-black pb-3 capitalize max-lg:text-center">
                 <span className="hero_gradient_text">Realtime</span> graph
                 analytics at scale
@@ -36,7 +36,7 @@ const Hero = () => {
                 height={504}
                 src="/assets/images/home/webp/hero-image.webp"
                 alt="pometry-logo"
-                className="pointer-events-none max-md:max-w-[365px] max-sm:max-w-[245px]"
+                className="pointer-events-none max-lg:max-w-[500px] max-md:max-w-[365px] max-sm:max-w-[245px]"
               />
             </div>
           </div>
