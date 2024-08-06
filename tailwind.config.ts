@@ -24,13 +24,14 @@ const config: Config = {
         dim_black: "#00000033",
         faint_pink: "#FEF8F9",
         charcoal: "#292828",
-        charcoal_gray:"#403F40"
+        charcoal_gray: "#403F40",
       },
       boxShadow: {
         "3xl": "0px 8px 41px 0px #00000014",
         "4xl": "0px 0px 24px 0px #0000001F",
         "5xl": "0px 0px 0px 2px #9D20351A, 0px 0px 15px #ffffff",
         "7xl": "0px 0px 12px 0px #0000001F",
+        "8xl": "0px 4px 41px 0px #00000014",
       },
       container: {
         padding: {
