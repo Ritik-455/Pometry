@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <nav className="bg-faint_pink 2xl:max-w-[1920px] mx-auto">
       <div className="container max-w-[1180px]">
-        <div className="flex items-center justify-between pt-6">
+        <div className="flex items-center justify-between py-6">
           <Link href="/" aria-label="header-logo">
             <Image
               width={157}
