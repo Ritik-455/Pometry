@@ -112,7 +112,16 @@
 .underline_gradient:hover::after {
   transform: scaleX(1);
 }
-.slick-slider {
-  overflow: hidden;
-  cursor: pointer;
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+}
+.swiper_img {
+  filter: brightness(50%);
+}
+
+.swiper_img.swiper-slide-active {
+  border: 2px solid #9d2035;
+  border-radius: 50%;
+  filter: none !important;
 }

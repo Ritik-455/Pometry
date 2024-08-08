@@ -23,54 +23,55 @@ const MeetOurTeam = () => {
 
   return (
     <div className="pt-[152px] pb-[124px]">
-        <PrimaryHeading
-          className="text-center pb-[52px]"
-          textName="Meet Our Team"
-        />
-        <Swiper
-          spaceBetween={16}
-          slidesPerView={3}
-          loop={true}
-        >
-          {OUR_TEAM_IMAGES.map((obj: TeamImages, index: number) => (
-            <SwiperSlide key={index}>
-              <Image
-                src={obj.img}
-                width={259}
-                height={259}
-                alt="meet-our-team-slider-img"
-                className="pointer-events-none"
+      <PrimaryHeading
+        className="text-center pb-[52px]"
+        textName="Meet Our Team"
+      />
+      <Swiper
+        spaceBetween={16}
+        slidesPerView={7.5}
+        loop={true}
+        centerMode={true}
+      >
+        {OUR_TEAM_IMAGES.map((obj: TeamImages, index: number) => (
+          <SwiperSlide key={index} className="swiper_img">
+            <Image
+              src={obj.img}
+              width={259}
+              height={259}
+              alt="meet-our-team-slider-img"
+              className="pointer-events-none rounded-full"
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      <Swiper
+        spaceBetween={16}
+        slidesPerView={1}
+        loop={true}
+        pagination={true}
+        modules={[Pagination]}
+      >
+        {/* =====team-content===== */}
+        {MEET_OUR_TEAM.map((obj: MeetOurTeam, index: number) => (
+          <SwiperSlide key={index}>
+            <div className="shadow-8xl py-[30px] px-12 rounded-2xl max-w-[1078px] mb-11">
+              <Paragraph
+                className="max-w-[980px] text-center !text-charcoal_gray pb-6"
+                textName={obj.para}
               />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <Swiper
-          spaceBetween={16}
-          slidesPerView={1}
-          loop={true}
-          pagination={true}
-          modules={[Pagination]}
-        >
-          {/* =====team-content===== */}
-          {MEET_OUR_TEAM.map((obj: MeetOurTeam, index: number) => (
-            <SwiperSlide key={index}>
-              <div className="shadow-8xl py-[30px] px-12 rounded-2xl">
-                <Paragraph
-                  className="max-w-[980px] text-center !text-charcoal_gray pb-6"
-                  textName={obj.para}
-                />
-                <p className="font-semibold text-[32px] leading-10 text-dark_red text-center pb-0.5">
-                  {obj.name}
-                </p>
-                <Paragraph
-                  className="!text-charcoal_gray text-center"
-                  textName={obj.profession}
-                />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+              <p className="font-semibold text-[32px] leading-10 text-dark_red text-center pb-0.5">
+                {obj.name}
+              </p>
+              <Paragraph
+                className="!text-charcoal_gray text-center"
+                textName={obj.profession}
+              />
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
 };
 

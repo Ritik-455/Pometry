@@ -3,11 +3,11 @@ import Paragraph from "../common/Paragraph";
 
 const TeamHero = () => {
   return (
-    <div className="pt-5 pb-[68px] bg-faint_pink relative">
+    <div className="pt-5 pb-[68px] bg-faint_pink relative max-w-[1920px] mx-auto">
       <div className="w-[423px] h-[171px] bg-mix_red opacity-15 blur-[74px] absolute start-0 top-[90px] lg:block hidden"></div>
       <div className="container max-w-[1180px]">
         <div className="row">
-          <div className="lg:col-6 w-full px-3 justify-center flex">
+          <div className="lg:col-6 w-full px-3 max-lg:justify-center flex">
             <Image
               width={436}
               height={436}
