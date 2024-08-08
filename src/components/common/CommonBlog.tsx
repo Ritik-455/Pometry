@@ -1,3 +1,4 @@
+"use client"
 import PrimaryHeading from "./PrimaryHeading";
 import Image from "next/image";
 import Paragraph from "./Paragraph";
@@ -6,8 +7,11 @@ import { ArrowIcon } from "./Icon";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 const CommonBlog = () => {
+  const SLICED_BLOG_DATA = BLOG_DATA.slice(0, 5);
   return (
     <div className="xl:pb-[152px] md:pb-20 pb-16 2xl:max-w-[1920px] mx-auto">
       <div className="container xl:max-w-[1180px] md:pt-[50px] sm:pt-8 relative z-30">
@@ -19,8 +23,31 @@ const CommonBlog = () => {
           <ArrowIcon />
         </span>
         <Swiper
-          slidesPerView={3}>
-          {BLOG_DATA.map((value, index) => (
+          slidesPerView={1}
+          spaceBetween={20}
+          pagination={true}
+          loop={true}
+          modules={[Pagination]}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            700: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+          }}
+        >
+          {SLICED_BLOG_DATA.map((value, index) => (
             <SwiperSlide
               key={index}
               className="p-4 sm:min-h-[453px] max-w-[366px] w-full rounded-xl bg-white border border-grey flex flex-col justify-between"
@@ -34,7 +61,7 @@ const CommonBlog = () => {
                   rel="preload"
                   className="rounded-lg mb-[10px] pointer-events-none"
                 />
-                <p className="font-jakarta font-semibold sm:text-2xl text-xl leading-6 sm:leading-8 text-jet_black">
+                <p className="font-semibold text-2xl sm:text-lg xl:text-xl xl:leading-6 text-jet_black">
                   {value.blogTitle}
                 </p>
               </div>

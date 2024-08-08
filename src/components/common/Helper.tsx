@@ -1,4 +1,3 @@
-import benSteerImg from "/assets/images/ourteam/png/hero-team-img.png";
 import { LinkedIcon, SlackIcon, TwitterIcon } from "./Icon";
 import {
   LoadExistingIcon,
@@ -61,6 +60,26 @@ export const BLOG_DATA = [
   {
     blogImage: "/assets/images/home/webp/blog-img-1.webp",
     blogTitle: "Making Decisions with data Analytics",
+    blogProfile: "/assets/images/home/svg/blog-profile-3.svg",
+  },
+  {
+    blogImage: "/assets/images/home/webp/blog-img-3.webp",
+    blogTitle: "Making Decisions with data Analytics",
+    blogProfile: "/assets/images/home/svg/blog-profile-3.svg",
+  },
+  {
+    blogImage: "/assets/images/home/webp/blog-img-4.webp",
+    blogTitle: "The Role of Machine Learning in Data Analytics",
+    blogProfile: "/assets/images/home/svg/blog-profile-3.svg",
+  },
+  {
+    blogImage: "/assets/images/home/webp/blog-img-5.webp",
+    blogTitle: "Making Decisions with data Analytics",
+    blogProfile: "/assets/images/home/svg/blog-profile-3.svg",
+  },
+  {
+    blogImage: "/assets/images/home/webp/blog-img-6.webp",
+    blogTitle: "The Role of Machine Learning in Data Analytics",
     blogProfile: "/assets/images/home/svg/blog-profile-3.svg",
   },
 ];
@@ -195,9 +214,32 @@ export const FOOTER_ELLIPSE = [
     className: "blur-[100px] w-[423px] h-[310px] -bottom-[18%] -right-[13%]",
   },
 ];
+export const OUR_TEAM_IMAGES = [
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
+];
 export const MEET_OUR_TEAM = [
   {
-    img: benSteerImg,
+    para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
+    name: "Dr Ben Steer",
+    profession: "CTO",
+  },
+  {
+    para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
+    name: "Dr Ben Steer",
+    profession: "CTO",
+  },
+  {
     para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
     name: "Dr Ben Steer",
     profession: "CTO",

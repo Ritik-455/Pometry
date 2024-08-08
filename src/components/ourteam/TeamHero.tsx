@@ -11,7 +11,7 @@ const TeamHero = () => {
             <Image
               width={436}
               height={436}
-              src="/assets/images/ourteam/png/hero-team-img.png"
+              src="/assets/images/ourteam/webp/hero-team-img.webp"
               alt="hero-team-image"
               className="max-sm:max-w-[250px] max-md:max-w-[290px] max-lg:max-w-[380px] pointer-events-none"
             />

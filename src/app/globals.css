@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(96.09deg, #E31930 0%, #F3576E 100%);
+  background: linear-gradient(96.09deg, #e31930 0%, #f3576e 100%);
   border-radius: 10px;
 }
 
@@ -32,6 +32,7 @@
 .custom-scrollbar::-webkit-scrollbar-track {
   background: #2E2E2E;
   border-radius: 4px;
+  background: #2e2e2e;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
@@ -112,4 +113,28 @@
 
 .underline_gradient:hover::after {
   transform: scaleX(1);
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 10% !important;
+  position: relative !important;
+  z-index: 99 !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: transparent !important;
+  opacity: 0.8 !important;
+  border: 0.8px solid red !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: red !important;
 }
