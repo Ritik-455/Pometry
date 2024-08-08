@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(96.09deg, #E31930 0%, #F3576E 100%);
+  background: linear-gradient(96.09deg, #e31930 0%, #f3576e 100%);
   border-radius: 10px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: #2E2E2E;
+  background: #2e2e2e;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
@@ -111,4 +111,8 @@
 
 .underline_gradient:hover::after {
   transform: scaleX(1);
+}
+.slick-slider {
+  overflow: hidden;
+  cursor: pointer;
 }
