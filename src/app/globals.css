@@ -114,6 +114,7 @@
 .underline_gradient:hover::after {
   transform: scaleX(1);
 }
+<<<<<<< HEAD
 
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
@@ -122,6 +123,20 @@
   bottom: 10% !important;
   position: relative !important;
   z-index: 99 !important;
+=======
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+}
+.swiper_img {
+  filter: brightness(50%);
+}
+
+.swiper_img.swiper-slide-active {
+  border: 2px solid #9d2035;
+  border-radius: 50%;
+  filter: none !important;
+>>>>>>> 252a8c60e1b8d8e8ba05ade59acce24e55e348aa
 }
 
 .swiper-pagination-bullet {

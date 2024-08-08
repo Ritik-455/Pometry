@@ -23,8 +23,8 @@ export const SlackIcon = ({ iconColor }: socialIcon) => (
         y2="2.79994"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -50,8 +50,8 @@ export const LinkedIcon = ({ iconColor }: socialIcon) => (
         y2="2.79994"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -77,8 +77,8 @@ export const TwitterIcon = ({ iconColor }: socialIcon) => (
         y2="3.42577"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -109,8 +109,8 @@ export const Document = () => (
         y2="44.4411"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_731_4292"
@@ -120,8 +120,8 @@ export const Document = () => (
         y2="9.09776"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -172,8 +172,8 @@ export const CloudCoin = () => (
         y2="18.06"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_731_4296"
@@ -183,8 +183,8 @@ export const CloudCoin = () => (
         y2="20.4302"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_731_4296"
@@ -194,8 +194,8 @@ export const CloudCoin = () => (
         y2="25.2553"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_731_4296"
@@ -205,8 +205,8 @@ export const CloudCoin = () => (
         y2="32.5007"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_731_4296"
@@ -216,8 +216,8 @@ export const CloudCoin = () => (
         y2="31.354"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint5_linear_731_4296"
@@ -227,8 +227,8 @@ export const CloudCoin = () => (
         y2="37.2722"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint6_linear_731_4296"
@@ -238,8 +238,8 @@ export const CloudCoin = () => (
         y2="37.2727"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -266,8 +266,8 @@ export const Star = () => (
         y2="48.4682"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -306,8 +306,8 @@ export const Coin = () => (
         y2="0.862204"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_731_4309"
@@ -317,8 +317,8 @@ export const Coin = () => (
         y2="11.2438"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_731_4309"
@@ -328,8 +328,8 @@ export const Coin = () => (
         y2="23.2114"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_731_4309"
@@ -339,8 +339,8 @@ export const Coin = () => (
         y2="38.6357"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -422,8 +422,8 @@ export const Bulb = () => (
         y2="5.84801"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_126_925"
@@ -433,8 +433,8 @@ export const Bulb = () => (
         y2="5.52441"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_126_925"
@@ -444,8 +444,8 @@ export const Bulb = () => (
         y2="22.755"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_126_925"
@@ -455,8 +455,8 @@ export const Bulb = () => (
         y2="22.7532"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_126_925"
@@ -466,8 +466,8 @@ export const Bulb = () => (
         y2="13.2494"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint5_linear_126_925"
@@ -477,8 +477,8 @@ export const Bulb = () => (
         y2="11.9354"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint6_linear_126_925"
@@ -488,8 +488,8 @@ export const Bulb = () => (
         y2="23.1135"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint7_linear_126_925"
@@ -499,8 +499,8 @@ export const Bulb = () => (
         y2="18.5379"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint8_linear_126_925"
@@ -510,8 +510,8 @@ export const Bulb = () => (
         y2="13.3732"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint9_linear_126_925"
@@ -521,8 +521,8 @@ export const Bulb = () => (
         y2="22.5717"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint10_linear_126_925"
@@ -532,8 +532,8 @@ export const Bulb = () => (
         y2="27.9794"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint11_linear_126_925"
@@ -543,8 +543,8 @@ export const Bulb = () => (
         y2="19.8893"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint12_linear_126_925"
@@ -554,8 +554,8 @@ export const Bulb = () => (
         y2="31.2274"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint13_linear_126_925"
@@ -565,8 +565,8 @@ export const Bulb = () => (
         y2="23.4886"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint14_linear_126_925"
@@ -576,8 +576,8 @@ export const Bulb = () => (
         y2="30.8929"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -615,8 +615,8 @@ export const Commitment = () => (
         y2="-0.855393"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_126_944"
@@ -626,8 +626,8 @@ export const Commitment = () => (
         y2="-1.80661"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_126_944"
@@ -637,8 +637,8 @@ export const Commitment = () => (
         y2="21.5836"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_126_944"
@@ -648,8 +648,8 @@ export const Commitment = () => (
         y2="26.2961"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -683,8 +683,8 @@ export const Passion = () => (
         y2="10.7362"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_126_955"
@@ -694,8 +694,8 @@ export const Passion = () => (
         y2="20.0819"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_126_955"
@@ -705,8 +705,8 @@ export const Passion = () => (
         y2="19.4285"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -760,8 +760,8 @@ export const Teamwork = () => (
         y2="6.41299"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_126_965"
@@ -771,8 +771,8 @@ export const Teamwork = () => (
         y2="7.1834"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_126_965"
@@ -782,8 +782,8 @@ export const Teamwork = () => (
         y2="7.16563"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_126_965"
@@ -793,8 +793,8 @@ export const Teamwork = () => (
         y2="10.0157"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_126_965"
@@ -804,8 +804,8 @@ export const Teamwork = () => (
         y2="11.9551"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint5_linear_126_965"
@@ -815,8 +815,8 @@ export const Teamwork = () => (
         y2="11.9894"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint6_linear_126_965"
@@ -826,8 +826,8 @@ export const Teamwork = () => (
         y2="20.9417"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint7_linear_126_965"
@@ -837,8 +837,8 @@ export const Teamwork = () => (
         y2="16.674"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -880,8 +880,8 @@ export const LoadExistingIcon = () => (
         y2="4.7828"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_1381_1313"
@@ -891,8 +891,8 @@ export const LoadExistingIcon = () => (
         y2="9.23277"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_1381_1313"
@@ -902,8 +902,8 @@ export const LoadExistingIcon = () => (
         y2="14.2416"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_1381_1313"
@@ -913,8 +913,8 @@ export const LoadExistingIcon = () => (
         y2="24.4336"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_1381_1313"
@@ -924,8 +924,8 @@ export const LoadExistingIcon = () => (
         y2="22.235"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -955,8 +955,8 @@ export const TimeTravelIcon = () => (
         y2="22.9374"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_1381_1448"
@@ -966,8 +966,8 @@ export const TimeTravelIcon = () => (
         y2="20.0951"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -1001,8 +1001,8 @@ export const ThreeSlideIcon = () => (
         y2="23.7869"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_1381_263"
@@ -1012,8 +1012,8 @@ export const ThreeSlideIcon = () => (
         y2="27.1773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_1381_263"
@@ -1023,8 +1023,8 @@ export const ThreeSlideIcon = () => (
         y2="30.6658"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -1050,8 +1050,8 @@ export const OpenCore = () => (
         y2="18.3693"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -1070,14 +1070,14 @@ export const TikIcon = () => (
       height="24"
       rx="2"
       fill="#9D2035"
-      fill-opacity="0.1"
+      fillOpacity="0.1"
     />
     <path
       d="M6.75 12.6357L10.25 16.1357L17.25 8.63574"
       stroke="#9D2035"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -1103,8 +1103,8 @@ export const NextArrowIcon = () => (
         y2="0.53739"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>
@@ -1131,8 +1131,8 @@ export const PrevArrowIcon = () => (
         y2="0.53739"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#E31930" />
-        <stop offset="1" stop-color="#F3576E" />
+        <stop stopColor="#E31930" />
+        <stop offset="1" stopColor="#F3576E" />
       </linearGradient>
     </defs>
   </svg>

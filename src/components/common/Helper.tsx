@@ -227,6 +227,24 @@ export const OUR_TEAM_IMAGES = [
   {
     img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
   },
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
+  {
+    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+  },
 ];
 export const MEET_OUR_TEAM = [
   {
