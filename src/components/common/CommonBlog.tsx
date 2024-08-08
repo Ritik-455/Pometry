@@ -4,6 +4,8 @@ import Paragraph from "./Paragraph";
 import { BLOG_DATA } from "./Helper";
 import { ArrowIcon } from "./Icon";
 import Link from "next/link";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 const CommonBlog = () => {
   return (
@@ -16,9 +18,10 @@ const CommonBlog = () => {
         <span className="absolute lg:right-[30%] md:right-[22%] right-[18%] top-0 -z-20 sm:block hidden">
           <ArrowIcon />
         </span>
-        <div className="flex gap-5 lg:flex-row flex-col justify-center max-lg:items-center">
+        <Swiper
+          slidesPerView={3}>
           {BLOG_DATA.map((value, index) => (
-            <div
+            <SwiperSlide
               key={index}
               className="p-4 sm:min-h-[453px] max-w-[366px] w-full rounded-xl bg-white border border-grey flex flex-col justify-between"
             >
@@ -59,9 +62,9 @@ const CommonBlog = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
       </div>
     </div>
   );

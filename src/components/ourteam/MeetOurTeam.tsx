@@ -4,7 +4,7 @@ import { MEET_OUR_TEAM } from "../common/Helper";
 import Paragraph from "../common/Paragraph";
 
 interface MeetOurTeam {
-  // img: string;
+  img: any;
   para: string;
   name: string;
   profession: string;
@@ -19,13 +19,13 @@ const MeetOurTeam = () => {
         />
         {MEET_OUR_TEAM.map((obj: MeetOurTeam, index: number) => (
           <div key={index}>
-            {/* <Image
+            <Image
               src={obj.img}
               width={259}
               height={259}
               alt="meet-our-team-slider-img"
               className="pointer-events-none"
-            /> */}
+            />
             <div className="shadow-8xl py-[30px] px-12 rounded-2xl">
               <Paragraph
                 className="max-w-[980px] text-center !text-charcoal_gray pb-6"

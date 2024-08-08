@@ -1,5 +1,4 @@
-import benSteerImg from "./assets/images/ourteam/png/hero-team-img.png";
-
+import benSteerImg from "/assets/images/ourteam/png/hero-team-img.png";
 import { LinkedIcon, SlackIcon, TwitterIcon } from "./Icon";
 import {
   LoadExistingIcon,
@@ -198,7 +197,7 @@ export const FOOTER_ELLIPSE = [
 ];
 export const MEET_OUR_TEAM = [
   {
-    // img: benSteerImg,
+    img: benSteerImg,
     para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
     name: "Dr Ben Steer",
     profession: "CTO",
