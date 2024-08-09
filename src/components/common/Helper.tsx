@@ -219,34 +219,53 @@ export const OUR_TEAM_IMAGES = [
     img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
   },
   {
-    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+    img: "/assets/images/ourteam/webp/richard-slider-img.webp",
   },
   {
-    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+    img: "/assets/images/ourteam/webp/naomi-slider-img.webp",
   },
   {
-    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+    img: "/assets/images/ourteam/webp/rachel-slider-img.webp",
   },
   {
-    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+    img: "/assets/images/ourteam/webp/alhamza-slider-img.webp",
   },
   {
-    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+    img: "/assets/images/ourteam/webp/haaroon-slider-img.webp",
   },
   {
-    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+    img: "/assets/images/ourteam/webp/renaud-slider-img.webp",
   },
   {
-    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
-  },
-  {
-    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
-  },
-  {
-    img: "/assets/images/ourteam/webp/ben-steer-slider-img.webp",
+    img: "/assets/images/ourteam/webp/imane-slider-img.webp",
   },
 ];
 export const MEET_OUR_TEAM = [
+  {
+    para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
+    name: "Dr Ben Steer",
+    profession: "CTO",
+  },
+  {
+    para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
+    name: "Dr Ben Steer",
+    profession: "CTO",
+  },
+  {
+    para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
+    name: "Dr Ben Steer",
+    profession: "CTO",
+  },
+  {
+    para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
+    name: "Dr Ben Steer",
+    profession: "CTO",
+  },
+  {
+    para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
+    name: "Dr Ben Steer",
+    profession: "CTO",
+  },
   {
     para: "Ben is the CTO and Co-Founder at Pometry as well as an honorary researcher at Queen Mary University of London. His work in complex networks and distributed systems focuses on the development of Raphtory, a large-scale stream processing solution for temporal graph analytics. His secondary focus as a board member for the Linked Data Benchmark Council is to define frameworks where different graph based technologies can be fairly tested and compared and help researchers open new frontiers in high-performance graph data management.",
     name: "Dr Ben Steer",

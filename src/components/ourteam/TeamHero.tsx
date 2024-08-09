@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Paragraph from "../common/Paragraph";
 
+
 const TeamHero = () => {
   return (
-    <div className="pt-5 pb-[68px] bg-faint_pink relative max-w-[1920px] mx-auto">
+    <div className="py-10 md:py-20 xl:pt-5 xl:pb-[68px] bg-faint_pink relative max-w-[1920px] mx-auto">
       <div className="w-[423px] h-[171px] bg-mix_red opacity-15 blur-[74px] absolute start-0 top-[90px] lg:block hidden"></div>
       <div className="container max-w-[1180px]">
         <div className="row">
@@ -24,6 +25,14 @@ const TeamHero = () => {
               className="!text-charcoal_gray max-lg:text-center"
               textName="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum posuere tellus ut varius. Ut lacus arcu, ullamcorper laoreet lacus sed, sodales egestas purus."
             />
+            <div className="absolute right-[5%] 2xl:right-[10%] top-[25%] hidden lg:block">
+              <Image
+                width={98}
+                height={101}
+                src="/assets/images/ourteam/svg/vector-animated.svg"
+                alt="ajsd"
+              />
+            </div>
           </div>
         </div>
       </div>
