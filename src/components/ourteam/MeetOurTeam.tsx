@@ -45,7 +45,7 @@ const MeetOurTeam: React.FC = () => {
           loop={true}
           centeredSlides={true}
           autoplay={{
-            delay: 1500,
+            delay:  1500,
           }}
           modules={[Controller, Autoplay]}
           breakpoints={{
