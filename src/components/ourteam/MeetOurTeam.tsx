@@ -32,7 +32,7 @@ const MeetOurTeam: React.FC = () => {
   }, []);
 
   return (
-    <div className="py-16 md:py-20 xl:pt-[152px] xl:pb-[124px] max-w-[1920px] mx-auto">
+    <div className="py-16 md:py-20 xl:pt-[152px] xl:pb-[110px] max-w-[1920px] mx-auto">
       <PrimaryHeading
         className="text-center md:pb-[52px]"
         textName="Meet Our Team"

@@ -98,7 +98,7 @@ const EasyTabs = () => {
             <div className="flex gap-4 flex-wrap lg:flex-nowrap justify-center">
               <div className="w-[540px] lg:w-[558px]">
                 <div className="max-w-[558px] w-full [background:linear-gradient(96.09deg,#8018ff05_0%,#900be205_100%)] p-4 border border-[#FFFFFF1F] rounded-[15px] lg:h-full">
-                  <p className="font-courier font-normal text-white text-sm">for monthly_view in graph<span className="text-green">.rolling</span>( &#34;<span className="text-yellow">1 month</span> &#34;) :</p>
+                  <p className="font-courier font-normal text-white text-sm">for monthly_view in graph<span className="text-green font-courier">.rolling</span>( &#34;<span className="text-yellow font-courier">1 month</span> &#34;):</p>
                   <p className="font-courier font-normal text-white text-sm mt-2">EntityResolution() -&#62; Scoring() -&#62; Alerting()</p>
                   <p className="font-courier font-normal text-white text-sm mt-2">Save_to_Postgres()</p>
                 </div>
@@ -109,14 +109,14 @@ const EasyTabs = () => {
               </div>
               <div className="w-[558px]">
                 <div className="max-w-[558px] w-full [background:linear-gradient(96.09deg,#8018ff05_0%,#900be205_100%)] p-4 pb-0 border border-[#FFFFFF1F] rounded-[15px]">
-                  <p className="font-courier font-normal text-white text-sm lg:text-base">window(start: &#34;<span className="text-yellow">01/01/2023</span>&#34;, end: &#34;<span className="text-yellow">01/06/2023</span>&#34;)  &#123;</p>
-                  <p className="font-courier font-normal text-white text-sm lg:text-base ml-3">nodes(type: &#34;<span className="text-yellow">company</span>&#34;) &#123;</p>
+                  <p className="font-courier font-normal text-white text-sm lg:text-base">window(start: &#34;<span className="text-yellow font-courier">01/01/2023</span>&#34;, end: &#34;<span className="text-yellow font-courier">01/06/2023</span>&#34;)  &#123;</p>
+                  <p className="font-courier font-normal text-white text-sm lg:text-base ml-3">nodes(type: &#34;<span className="text-yellow font-courier">company</span>&#34;) &#123;</p>
                   <p className="font-courier font-normal text-white text-sm lg:text-base ml-5">company_number, incorporation_date,</p>
-                  <p className="font-courier font-normal text-white text-sm lg:text-base ml-5"><span className="text-green">neighbours</span>(type: &#34;<span className="text-yellow">directo</span>r&#34;) &#123;</p>
+                  <p className="font-courier font-normal text-white text-sm lg:text-base ml-5"><span className="text-green font-courier">neighbours</span>(type: &#34;<span className="text-yellow font-courier">director</span>&#34;) &#123;</p>
                   <p className="font-courier font-normal text-white text-sm lg:text-base ml-11">name, age, address</p>
                   <p className="font-courier font-normal text-white text-sm lg:text-base ml-3">&#125;</p>
                   <p className="font-courier font-normal text-white text-sm lg:text-base">&#125; </p>
-                  <p className="font-courier font-normal text-white text-sm lg:text-base"><span className="text-green">algorithms</span> &#123;</p>
+                  <p className="font-courier font-normal text-white text-sm lg:text-base"><span className="text-green font-courier">algorithms</span> &#123;</p>
                   <p className="font-courier font-normal text-white text-sm lg:text-base ml-5">shell_detection &#44;</p>
                   <p className="font-courier font-normal text-white text-sm lg:text-base ml-5">pep_screening</p>
                   <p className="font-courier font-normal text-white text-sm lg:text-base ml-3">&#125;</p>

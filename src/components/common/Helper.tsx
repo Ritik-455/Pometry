@@ -24,9 +24,9 @@ export const SOCIAL_ICON = [
   },
 ];
 export const NAV_LINKS_LIST = [
-  { navlink: "Home", url: "#home" },
+  { navlink: "Home", url: "#home", path: "/", },
   { navlink: "Blog", url: "#blog" },
-  { navlink: "Our Team", url: "#team" },
+  { navlink: "Our Team", url: "#team", path: "/ourteam" },
   { navlink: "Product Overview", url: "#overview" },
 ];
 export const EASY_TABS_DATA = [

@@ -44,6 +44,9 @@
   background: #ff1a1a;
 }
 
+.box_swiper .swiper-pagination {
+  margin-top: 0px !important;
+}
 
 @layer components {
   .row {
