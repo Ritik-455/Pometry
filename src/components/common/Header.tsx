@@ -2,8 +2,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation"; // Import usePathname
 import { NAV_LINKS_LIST } from "../common/Helper";
 import { Navcross, Navline } from "./Icon";
+
 interface NavLink {
   url: string;
   navlink: string;
@@ -11,6 +13,7 @@ interface NavLink {
 
 const Header = () => {
   const [nav, setNav] = useState(true);
+  const pathname = usePathname(); // Get current path
 
   const handleNavbar = () => {
     setNav(!nav);
@@ -59,7 +62,7 @@ const Header = () => {
                 key={index}
                 href={obj.url}
                 onClick={handleNavbar}
-                className="font-jakarta text-charcoal max-lg:text-2xl gradient_text_hover underline_gradient relative after:absolute after:h-[1px] after:w-full after:bottom-0 after:left-0 after:bg-mix_red after:rounded gradient_transition"
+                className={`${pathname === obj.url && "gradient_text underline_gradient_active" } font-jakarta text-charcoal max-lg:text-2xl gradient_text_hover underline_gradient relative after:absolute after:h-[1px] after:w-full after:bottom-0 after:left-0 after:bg-mix_red after:rounded gradient_transition`}
               >
                 {obj.navlink}
               </Link>
