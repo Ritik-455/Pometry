@@ -24,7 +24,7 @@ const config: Config = {
         pink: "#FEF8F9",
         charcoal: "#292828",
         charcoal_gray: "#403F40",
-        slate_gray:"#2E2E2E"
+        slate_gray: "#2E2E2E"
       },
       boxShadow: {
         "3xl": "0px 8px 41px 0px #00000014",
@@ -42,6 +42,7 @@ const config: Config = {
       },
       screens: {
         custom_2xl: "1536.99px",
+        ultra_wide: "1800px",
       },
       backgroundImage: {
         mix_red: "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)",

@@ -7,7 +7,7 @@ import BackToTopButton from "@/components/common/BackToTopButton";
 export const metadata: Metadata = {
   title: "Pometry",
   description: "Realtime graph analytics at scale",
-  metadataBase: new URL("https://pometry-h54f.vercel.app/"),
+  metadataBase: new URL("https://pometry-01.vercel.app/"),
   openGraph: {
     title: "Pometry",
     description: "Realtime graph analytics at scale",
