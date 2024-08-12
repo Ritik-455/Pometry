@@ -8,7 +8,7 @@ import React from "react";
 export const metadata: Metadata = {
   title: "Pometry",
   description: "Realtime graph analytics at scale",
-  metadataBase: new URL("https://pometry-01.vercel.app/"),
+  metadataBase: new URL("https://pometry-01.vercel.app"),
   openGraph: {
     title: "Pometry",
     description: "Realtime graph analytics at scale",
