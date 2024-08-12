@@ -43,6 +43,7 @@ const MeetOurTeam: React.FC = () => {
           spaceBetween={10}
           slidesPerView={6.5}
           loop={true}
+          className="mt-6 lg:mt-12"
           centeredSlides={true}
           autoplay={{
             delay:  1500,
@@ -91,7 +92,7 @@ const MeetOurTeam: React.FC = () => {
         >
           {MEET_OUR_TEAM.map((obj: MeetOurTeam, index: number) => (
             <SwiperSlide key={index}>
-              <div className="flex justify-center">
+              <div className="flex justify-center mt-3 md:mt-6">
                 <div className="shadow-8xl p-4 lg:py-[30px] lg:px-12 rounded-2xl max-w-[1078px] mb-11">
                   <Paragraph
                     className="max-w-[980px] text-center !text-charcoal_gray pb-6 md:text-base"

@@ -10,8 +10,8 @@ interface SocialList {
 
 const Hero = () => {
   return (
-    <div className="bg-faint_pink relative 2xl:max-w-[1920px] mx-auto">
-      <div id="home" className="xl:pt-[55px] md:pt-20 pt-16">
+    <div className="bg-pink relative 2xl:max-w-[1920px] mx-auto">
+      <div id="home" className="xl:pt-[55px] pt-16 md:pt-3">
         <div className="container max-w-[1180px]">
           <div className="row lg:flex-row flex-col-reverse items-center">
             <div className="lg:col-6 px-3">
@@ -40,7 +40,7 @@ const Hero = () => {
               />
             </div>
           </div>
-          <div className="flex flex-wrap justify-center items-center xl:gap-[109px] lg:gap-16 sm:gap-16 gap-9 pb-4 lg:pt-[108px] md:pt-20 pt-12">
+          <div className="flex flex-wrap justify-center items-center xl:gap-[109px] lg:gap-16 gap-4 md:gap-10 pb-4 lg:pt-[108px] md:pt-20 pt-12">
             {SOCIAL_LINKS_LIST.map((obj: SocialList, index: number) => (
               <div key={index}>
                 <Image

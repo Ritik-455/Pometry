@@ -23,11 +23,11 @@ const SayHello = () => {
       <div className="container max-w-[1180px]">
         <PrimaryHeading
           textName="Say hello to graph 2.0"
-          className="pb-3 capitalize text-center"
+          className="capitalize text-center"
         />
         <Paragraph
           textName="We take away many of the widely spread pains associated with temporal graph analytics. One contextual platform to rule them all!"
-          className=" lg:pb-9 sm:pb-9 pb-5 opacity-80 max-w-[592px] text-center mx-auto"
+          className="lg:pb-9 sm:pb-9 pb-5 opacity-80 max-w-[592px] text-center mx-auto mt-4"
         />
         <div className="row items-center">
           <div className="lg:col-5 w-full px-3 lg:pt-12 max-lg:justify-center flex">
@@ -46,13 +46,13 @@ const SayHello = () => {
           </div>
           <div className="lg:col-7 w-full px-3 flex 2xl:justify-end justify-center lg:pt-0 pt-2">
             {/* =====red-bg====== */}
-            <div className="bg-mix_red xl:max-w-[843px] lg:max-w-[628px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute custom_2xl:end-[11%] lg:top-[52%] xl:top-[60%] end-0 top-[59%] lg:block hidden"></div>
+            <div className="bg-mix_red xl:max-w-[843px] lg:max-w-[628px] max-w-[663px] w-full h-[198px] rounded-[24px_0_0_24px] absolute custom_2xl:end-[7%] lg:top-[52%] xl:top-[60%] end-0 top-[59%] lg:block hidden"></div>
             <div className="flex gap-4 relative">
               {/* ======Swiper-ArrowIcon======= */}
-              <div className="size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-8%] xl:top-[48%] lg:right-[42%] md:right-[43%] max-md:right-[37%] max-xl:right-[23%] max-xl:bottom-[-19%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red cursor-pointer">
+              <div className="size-7 md:size-8 bg-white rounded-full absolute swiper-btn-next xl:right-[-8%] xl:top-[48%] lg:right-[42%] md:right-[43%] max-md:right-[43%] max-xl:right-[23%] max-xl:bottom-[-13%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red cursor-pointer">
                 <NextArrowIcon />
               </div>
-              <div className="size-8 bg-white rounded-full absolute swiper-btn-prev xl:top-[48%] xl:left-[-8%] lg:left-[42%] left-[26%] max-xl:bottom-[-19%] max-md:left-[32%] max-xl:left-[43%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red cursor-pointer">
+              <div className="size-7 md:size-8 bg-white rounded-full absolute swiper-btn-prev xl:top-[48%] xl:left-[-8%] lg:left-[42%] left-[26%] max-xl:bottom-[-13%] max-md:left-[33%] max-xl:left-[43%] flex justify-center items-center z-20 border border-transparent max-xl:border-dark_red cursor-pointer">
                 <PrevArrowIcon />
               </div>
               <Swiper
@@ -64,7 +64,7 @@ const SayHello = () => {
                   nextEl: ".swiper-btn-next",
                   prevEl: ".swiper-btn-prev",
                 }}
-                className="md:max-w-[582px] max-w-[293px] p-6"
+                className="md:max-w-[582px] max-w-[293px] !py-6"
                 breakpoints={{
                   530: {
                     slidesPerView: 1,
@@ -79,7 +79,7 @@ const SayHello = () => {
               >
                 {SAY_HELLO_CARDS.map((obj: HelloCards, index: number) => (
                   <SwiperSlide
-                    className="sm:!w-[283px] w-[293px] sm:!h-[321px] !h-[290px] rounded-xl lg:px-6 lg:pt-6 lg:pb-10 sm:p-6 p-5 bg-white hover:shadow-4xl border-[0.5px] border-dim_black hover:border-transparent !transition-all ease-linear duration-300 z-10"
+                    className="sm:!w-[283px] w-[293px] sm:!h-[321px] !h-[290px] rounded-xl lg:px-6 lg:pt-6 lg:pb-10 sm:p-6 p-5 bg-white hover:shadow-4xl border-[0.5px] border-dim_black hover:border-transparent !common_transition z-10"
                     key={index}
                   >
                     <div className="size-[46px] bg-light_red rounded flex justify-center items-center sm:mb-6 mb-5">

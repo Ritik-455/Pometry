@@ -9,7 +9,6 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        jakarta: "'Plus Jakarta Sans',sans-serif",
         courier: "'Courier Prime',monospace",
       },
       colors: {
@@ -22,9 +21,10 @@ const config: Config = {
         cosmic_black: "#FFFFFF1A",
         bright_yellow: "#EDF127",
         dim_black: "#00000033",
-        faint_pink: "#FEF8F9",
+        pink: "#FEF8F9",
         charcoal: "#292828",
         charcoal_gray: "#403F40",
+        slate_gray:"#2E2E2E"
       },
       boxShadow: {
         "3xl": "0px 8px 41px 0px #00000014",

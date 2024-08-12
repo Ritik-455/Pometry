@@ -25,7 +25,7 @@ const CommonBlog = () => {
         <Swiper
           slidesPerView={1}
           spaceBetween={20}
-          pagination={true}
+          pagination={{clickable:true}}
           loop={true}
           modules={[Pagination]}
           breakpoints={{
