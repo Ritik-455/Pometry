@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
 import BackToTopButton from "@/components/common/BackToTopButton";
+import React from "react";
 
 export const metadata: Metadata = {
   title: "Pometry",
