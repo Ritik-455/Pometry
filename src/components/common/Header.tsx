@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation"; // Import usePathname
+import { usePathname } from "next/navigation";
 import { NAV_LINKS_LIST } from "../common/Helper";
 import { Navcross, Navline } from "./Icon";
 
@@ -13,7 +13,7 @@ interface NavLink {
 
 const Header = () => {
   const [nav, setNav] = useState(true);
-  const pathname = usePathname(); // Get current path
+  const pathname = usePathname();
 
   const handleNavbar = () => {
     setNav(!nav);
