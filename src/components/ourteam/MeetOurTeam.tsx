@@ -31,7 +31,6 @@ const MeetOurTeam = () => {
         spaceBetween={16}
         slidesPerView={7.5}
         loop={true}
-        centerMode={true}
       >
         {OUR_TEAM_IMAGES.map((obj: TeamImages, index: number) => (
           <SwiperSlide key={index} className="swiper_img">
